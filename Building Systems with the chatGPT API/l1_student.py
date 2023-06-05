@@ -1,13 +1,12 @@
 import os
+
 import openai
 import tiktoken
-from dotenv import load_dotenv, find_dotenv
+from dotenv import find_dotenv, load_dotenv
 
 _ = load_dotenv(find_dotenv())  # read local .env file
 
-openai.api_key = os.getenv("OPENAI_KEY")  # replace OPENAI_KEY with your OpenAI key
-
-opneai.api_key = "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"
+openai.api_key = os.getenv("key")
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
