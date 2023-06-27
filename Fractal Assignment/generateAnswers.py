@@ -1,16 +1,20 @@
 import openai
 import os
 import tiktoken
+import re
 from dotenv import find_dotenv, load_dotenv
+from pdfParser import extract_text_from_pdf
 
 _ = load_dotenv(find_dotenv())  # read local .env file
 openai.api_key = os.getenv("key")
 
-MAX_TOKENS = 2048 #max tokens per api call, change this for different models some have 4096 also
+MAX_TOKENS = 3500 #max tokens per api call, change this for different models some have lower or higher limit
 
 def split_text_intelligently(text):
     # Split the text into chunks intelligently based on punctuation marks
     chunks = re.split(r'(?<=[.?!])\s+(?=[A-Z])', text)
+    # print (chunks)
+    print( 'Length of sentences chunks: ', len(chunks))
     return chunks
 
 def process_text_with_api(text):
@@ -22,43 +26,38 @@ def process_text_with_api(text):
 
     for chunk in chunks:
         # Check if adding the current chunk exceeds the token limit
-        if processed_tokens + len(chunk.split()) <= MAX_TOKENS:
+        # print(chunk)
+        # print('Length of chunk splitted:', len(chunk.split()))
+        if processed_tokens + len(chunk) <= MAX_TOKENS:
             processed_chunks.append(chunk)
-            processed_tokens += len(chunk.split())
+            processed_tokens += len(chunk)
         else:
-            # Process the collected chunks as a chunk
             processed_chunk = ' '.join(processed_chunks)
 
-            # Process the chunk with the OpenAI API
             response = openai.Completion.create(
-                engine='davinci-codex',  # Choose the appropriate engine
+                engine='text-davinci-003', 
                 prompt=processed_chunk,
-                max_tokens=MAX_TOKENS,
+                max_tokens=500,
                 stop=None  # Adjust the stop condition based on your requirements
             )
 
-            # Get the processed chunk from the API response
+            # print(response)
             processed_result = response.choices[0].text.strip()
 
-            # Clear the processed chunks and tokens
             processed_chunks = []
             processed_tokens = 0
 
-            # Append the processed chunk
             processed_chunks.append(processed_result)
 
-    # Process the remaining collected chunks as a final chunk
     final_chunk = ' '.join(processed_chunks)
 
-    # Process the final chunk with the OpenAI API
     response = openai.Completion.create(
-        engine='davinci-codex',  # Choose the appropriate engine
+        engine='text-davinci-003',  # Choose the appropriate engine
         prompt=final_chunk,
         max_tokens=MAX_TOKENS,
         stop=None  # Adjust the stop condition based on your requirements
     )
 
-    # Get the processed final chunk from the API response
     processed_final_chunk = response.choices[0].text.strip()
 
     return processed_final_chunk
