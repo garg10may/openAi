@@ -3,10 +3,10 @@ from generateAnswers import generate_question_answer
 from generateAnswers import process_text_with_api
 
 pdf_text = extract_text_from_pdf("./MDL-785_0.pdf")
-summary  = process_text_with_api(pdf_text)
-print('Length of summary:', len(summary))
+final_summary  = process_text_with_api(pdf_text)
+print('Length of summary:', len(final_summary))
 print('\n')
-print(summary)
+print(final_summary)
 
 
 

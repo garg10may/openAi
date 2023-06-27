@@ -12,55 +12,61 @@ MAX_TOKENS = 3500 #max tokens per api call, change this for different models som
 
 def split_text_intelligently(text):
     # Split the text into chunks intelligently based on punctuation marks
-    chunks = re.split(r'(?<=[.?!])\s+(?=[A-Z])', text)
+    sentences = re.split(r'(?<=[.?!])\s+(?=[A-Z])', text)
     # print (chunks)
-    print( 'Length of sentences chunks: ', len(chunks))
-    return chunks
+    # print( 'Length of sentences chunks: ', len(chunks))
+    return sentences
 
 def process_text_with_api(text):
     # Split the text into intelligently-sized chunks
-    chunks = split_text_intelligently(text)
+    sentences = split_text_intelligently(text)
 
-    processed_chunks = []
+    paragraph = []
     processed_tokens = 0
+    summaries = []
 
-    for chunk in chunks:
+    for sentence in sentences:
         # Check if adding the current chunk exceeds the token limit
         # print(chunk)
         # print('Length of chunk splitted:', len(chunk.split()))
-        if processed_tokens + len(chunk) <= MAX_TOKENS:
-            processed_chunks.append(chunk)
-            processed_tokens += len(chunk)
+        # if processed_tokens + len(chunk) <= MAX_TOKENS *3: #token are generally comprised of 3-4 chars
+        if processed_tokens + len(sentence) <= MAX_TOKENS: #token are generally comprised of 3-4 chars
+            paragraph.append(sentence)
+            processed_tokens += len(sentence)
         else:
-            processed_chunk = ' '.join(processed_chunks)
+            # paragraph = ' '.join(processed_chunks)
 
             response = openai.Completion.create(
                 engine='text-davinci-003', 
-                prompt=processed_chunk,
-                max_tokens=500,
+                prompt=''.join(paragraph),
+                max_tokens=300,
                 stop=None  # Adjust the stop condition based on your requirements
             )
 
             # print(response)
-            processed_result = response.choices[0].text.strip()
+            summary = response.choices[0].text.strip()
+            print(summary)
+            print('-' * 90)
 
-            processed_chunks = []
             processed_tokens = 0
+            paragraph = []
 
-            processed_chunks.append(processed_result)
+            summaries.append(summary)
 
-    final_chunk = ' '.join(processed_chunks)
+    # final_chunk = ' '.join(processed_chunks)
+
+    print(summaries)
 
     response = openai.Completion.create(
         engine='text-davinci-003',  # Choose the appropriate engine
-        prompt=final_chunk,
-        max_tokens=MAX_TOKENS,
+        prompt=''.join(summaries),
+        max_tokens=300,
         stop=None  # Adjust the stop condition based on your requirements
     )
 
-    processed_final_chunk = response.choices[0].text.strip()
+    total_summary = response.choices[0].text.strip()
 
-    return processed_final_chunk
+    return total_summary
 
 
 def generate_section_summary(section_text):
@@ -73,6 +79,8 @@ def generate_section_summary(section_text):
         stop=None,
     )
     summary = response.choices[0].text.strip()
+
+    return summary
 
 
 def generate_recursive_summaries(sections):
