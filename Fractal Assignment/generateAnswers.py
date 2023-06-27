@@ -4,6 +4,7 @@ import tiktoken
 import re
 from dotenv import find_dotenv, load_dotenv
 from pdfParser import extract_text_from_pdf
+from cache import conn
 
 _ = load_dotenv(find_dotenv())  # read local .env file
 openai.api_key = os.getenv("key")
@@ -30,7 +31,7 @@ def process_text_with_api(text):
         # print(chunk)
         # print('Length of chunk splitted:', len(chunk.split()))
         # if processed_tokens + len(chunk) <= MAX_TOKENS *3: #token are generally comprised of 3-4 chars
-        if processed_tokens + len(sentence) <= MAX_TOKENS * 3: #token are generally comprised of 3-4 chars
+        if processed_tokens + len(sentence) <= MAX_TOKENS * 3 : #token are generally comprised of 3-4 chars
             paragraph.append(sentence)
             processed_tokens += len(sentence)
         else:
@@ -40,6 +41,9 @@ def process_text_with_api(text):
             summary = generate_section_summary(paragraph)
             # print(summary)
             # print('-' * 90)
+
+            conn.execute("INSERT INTO section_summaries (section_summary, actual_text) VALUES (?, ?)", (summary, paragraph))
+            conn.commit()
 
             processed_tokens = 0
             paragraph = []
