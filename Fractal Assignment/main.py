@@ -16,28 +16,28 @@ print(section_summaries)
 # client.set('section_summaries', section_summaries)
 
 print('*-' * 100)
-# final_summary = generate_section_summary(section_summaries)
-# print(final_summary)
-
-
-text = """
-  I have taken a pdf and generated summaries for different different chunks\
-  since you can't understand the whole pdf in one go. Now I want the final summary.\
-  The section summaries are delimited by triple brackets
-  ```{section_summaries}```
-  """
-
-response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=text,
-        # max_tokens=300,
-        temperature=0.2,
-        n=1,
-        stop=None,
-    )
-
-final_summary = response.choices[0].text.strip()
+final_summary = generate_section_summary(section_summaries)
 print(final_summary)
+
+
+# text = """
+  # I have taken a pdf and generated summaries for different different chunks\
+  # since you can't understand the whole pdf in one go. Now I want the final summary.\
+  # The section summaries are delimited by triple brackets
+  # ```{section_summaries}```
+  # """
+# 
+# response = openai.Completion.create(
+        # engine="text-davinci-003",
+        # prompt=text,
+        # max_tokens=300,
+        # temperature=0.2,
+        # n=1,
+        # stop=None,
+    # )
+# 
+# final_summary = response.choices[0].text.strip()
+# print(final_summary)
 
 
 

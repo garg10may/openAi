@@ -69,9 +69,15 @@ def process_text_with_api(text):
 
 
 def generate_section_summary(section_text):
+
+    prompt = f"""
+    Summarize the text delimited by triple brackets 
+    ```{section_text}```
+    """
+
     response = openai.Completion.create(
         engine="text-davinci-003",
-        prompt=section_text,
+        prompt=prompt,
         max_tokens=300,
         temperature=0.2,
         n=1,
