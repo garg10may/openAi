@@ -30,21 +30,14 @@ def process_text_with_api(text):
         # print(chunk)
         # print('Length of chunk splitted:', len(chunk.split()))
         # if processed_tokens + len(chunk) <= MAX_TOKENS *3: #token are generally comprised of 3-4 chars
-        if processed_tokens + len(sentence) <= MAX_TOKENS: #token are generally comprised of 3-4 chars
+        if processed_tokens + len(sentence) <= MAX_TOKENS * 3: #token are generally comprised of 3-4 chars
             paragraph.append(sentence)
             processed_tokens += len(sentence)
         else:
             # paragraph = ' '.join(processed_chunks)
+            paragraph = ' '.join(paragraph)
 
-            response = openai.Completion.create(
-                engine='text-davinci-003', 
-                prompt=''.join(paragraph),
-                max_tokens=300,
-                stop=None  # Adjust the stop condition based on your requirements
-            )
-
-            # print(response)
-            summary = response.choices[0].text.strip()
+            summary = generate_section_summary(paragraph)
             print(summary)
             print('-' * 90)
 
@@ -55,25 +48,31 @@ def process_text_with_api(text):
 
     # final_chunk = ' '.join(processed_chunks)
 
-    print(summaries)
+    summaries = ' '.join(summaries)
 
-    response = openai.Completion.create(
-        engine='text-davinci-003',  # Choose the appropriate engine
-        prompt=''.join(summaries),
-        max_tokens=300,
-        stop=None  # Adjust the stop condition based on your requirements
-    )
+    return summaries
 
-    total_summary = response.choices[0].text.strip()
+    # response = openai.Completion.create(
+    #     engine='text-davinci-003',  # Choose the appropriate engine
+    #     prompt=summaries,
+    #     # max_tokens=300, #let final summary be decided by the model
+    #     temperature=0.2,
+    #     stop=None  # Adjust the stop condition based on your requirements
+    # )
 
-    return total_summary
+    # total_summary = response.choices[0].text.strip()
+
+    # print ('*' * 100)
+    # print('total summary is :', total_summary)
+
+    # return total_summary
 
 
 def generate_section_summary(section_text):
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=section_text,
-        max_token=100,
+        max_tokens=300,
         temperature=0.2,
         n=1,
         stop=None,
