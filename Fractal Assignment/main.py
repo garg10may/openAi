@@ -12,12 +12,12 @@ import openai
 # if not section_summaries:
 pdf_text = extract_text_from_pdf("./MDL-785_0.pdf")
 section_summaries  = process_text_with_api(pdf_text)
-print(section_summaries)
+# print(section_summaries)
 # client.set('section_summaries', section_summaries)
 
-print('*-' * 100)
-final_summary = generate_section_summary(section_summaries)
-print(final_summary)
+# print('*-' * 100)
+# final_summary = generate_section_summary(section_summaries)
+# print(final_summary)
 
 
 # text = """
@@ -41,10 +41,10 @@ print(final_summary)
 
 
 
-# context = "The extracted text from PDF: " + pdf_text
+context = "The extracted text from PDF: " + section_summaries
 # print("Context :", context)
-# question = "What is the main topic discussed in the PDF?"
-# answer = generate_question_answer(context, question)
+question = "What is the main topic discussed in the PDF?"
+answer = generate_question_answer(context, question)
 
-# print("Question:", question)
-# print("Answer:", answer)
+print("Question:", question)
+print(answer)

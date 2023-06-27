@@ -38,8 +38,8 @@ def process_text_with_api(text):
             paragraph = ' '.join(paragraph)
 
             summary = generate_section_summary(paragraph)
-            print(summary)
-            print('-' * 90)
+            # print(summary)
+            # print('-' * 90)
 
             processed_tokens = 0
             paragraph = []
@@ -71,14 +71,15 @@ def process_text_with_api(text):
 def generate_section_summary(section_text):
 
     prompt = f"""
-    Summarize the text delimited by triple brackets 
+    Summarize the text delimited by triple brackets. Retain any critical data which \
+    might be needed further if some question is asked on this text
     ```{section_text}```
     """
 
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=prompt,
-        max_tokens=300,
+        max_tokens=500,
         temperature=0.2,
         n=1,
         stop=None,
@@ -104,10 +105,10 @@ def generate_question_answer(context, question):
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=context + "\nQuestion: " + question,
-        max_tokens=100,
-        temperature=0.6,
+        max_tokens=200,
+        temperature=0.4,
         n=1,
         stop=None,
     )
-    answer = response.choice[0].text.strip()
+    answer = response.choices[0].text.strip()
     return answer
