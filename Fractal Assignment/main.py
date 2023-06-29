@@ -1,7 +1,6 @@
 from pdfParser import extract_text_from_pdf
 from generateAnswers import generate_question_answer, process_text_with_api, generate_section_summary
 from cache import conn, get_all_summaries
-from openAi import load_open_ai_key
 # from pymemcache.client import base
 # client = base.Client('localhost', 11211)
 # import memcache

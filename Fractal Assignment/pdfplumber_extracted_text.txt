@@ -1,0 +1,1185 @@
+NAIC Model Laws, Regulations, Guidelines and Other Resources—Summer 2019
+CREDIT FOR REINSURANCE MODEL LAW
+Table of Contents
+Section 1. Purpose
+Section 2. Credit Allowed a Domestic Ceding Insurer
+Section 3. Asset or Reduction from Liability for Reinsurance Ceded by a Domestic Insurer to an
+Assuming Insurer not Meeting the Requirements of Section 2
+Section 4. Qualified U.S. Financial Institutions
+Section 5. Rules and Regulations
+Section 6. Reinsurance Agreements Affected
+Section 1. Purpose
+The purpose of this Act is to protect the interest of insureds, claimants, ceding insurers, assuming insurers and the public
+generally. The legislature hereby declares its intent is to ensure adequate regulation of insurers and reinsurers and adequate
+protection for those to whom they owe obligations. In furtherance of that state interest, the legislature hereby provides a
+mandate that upon the insolvency of a non-U.S. insurer or reinsurer that provides security to fund its U.S. obligations in
+accordance with this Act, the assets representing the security shall be maintained in the United States and claims shall be
+filed with and valued by the state insurance commissioner with regulatory oversight, and the assets shall be distributed, in
+accordance with the insurance laws of the state in which the trust is domiciled that are applicable to the liquidation of
+domestic U.S. insurance companies. The legislature declares that the matters contained in this Act are fundamental to the
+business of insurance in accordance with 15 U.S.C. §§ 1011-1012.
+Section 2. Credit Allowed a Domestic Ceding Insurer
+Credit for reinsurance shall be allowed a domestic ceding insurer as either an asset or a reduction from liability on account of
+reinsurance ceded only when the reinsurer meets the requirements of Subsections A, B, C, D, E, F or G of this section;
+provided further, that the commissioner may adopt by regulation pursuant to Section 5B specific additional requirements
+relating to or setting forth: (1) the valuation of assets or reserve credits; (2) the amount and forms of security supporting
+reinsurance arrangements described in Section 5B; and/or (3) the circumstances pursuant to which credit will be reduced or
+eliminated.
+Drafting Note: This new regulatory authority is being added in response to reinsurance arrangements entered into, directly or indirectly, with life/health
+insurer-affiliated captives, special purpose vehicles or similar entities that may not have the same statutory accounting requirements or solvency
+requirements as US-based multi-state life/health insurers. To assist in achieving national uniformity, commissioners are asked to strongly consider adopting
+regulations that are substantially similar in all material respects to NAIC adopted model regulations in the handling and treatment of such reinsurance
+arrangements.
+Credit shall be allowed under Subsections A, B or C of this section only as respects cessions of those kinds or classes of
+business which the assuming insurer is licensed or otherwise permitted to write or assume in its state of domicile or, in the
+case of a U.S. branch of an alien assuming insurer, in the state through which it is entered and licensed to transact insurance
+or reinsurance. Credit shall be allowed under Subsections C or D of this section only if the applicable requirements of
+Subsection H have been satisfied.
+A. Credit shall be allowed when the reinsurance is ceded to an assuming insurer that is licensed to transact
+insurance or reinsurance in this state.
+Drafting Note: A state that provides for licensing of reinsurance by line, for consistency should adopt an amended version of Subsection A requiring the
+assuming insurer to be “licensed to transact reinsurance in this state.”
+B. Credit shall be allowed when the reinsurance is ceded to an assuming insurer that is accredited by the
+commissioner as a reinsurer in this state. In order to be eligible for accreditation, a reinsurer must:
+(1) File with the commissioner evidence of its submission to this state’s jurisdiction;
+(2) Submit to this state’s authority to examine its books and records;
+© 2019 National Association of Insurance Commissioners MO-785-1Credit for Reinsurance Model Law
+(3) Be licensed to transact insurance or reinsurance in at least one state, or in the case of a U.S. branch
+of an alien assuming insurer, be entered through and licensed to transact insurance or reinsurance
+in at least one state;
+(4) File annually with the commissioner a copy of its annual statement filed with the insurance
+department of its state of domicile and a copy of its most recent audited financial statement; and
+(5) Demonstrate to the satisfaction of the commissioner that it has adequate financial capacity to meet
+its reinsurance obligations and is otherwise qualified to assume reinsurance from domestic
+insurers. An assuming insurer is deemed to meet this requirement as of the time of its application
+if it maintains a surplus as regards policyholders in an amount not less than $20,000,000 and its
+accreditation has not been denied by the commissioner within ninety (90) days after submission of
+its application.
+Drafting Note: To qualify as an accredited reinsurer, an assuming insurer must meet all of the requirements and the standards set forth in Subsection B. If
+the commissioner of insurance determines that the assuming insurer has failed to continue to meet any of these qualifications, the commissioner may, upon
+written notice and hearing, revoke accreditation.
+C. (1) Credit shall be allowed when the reinsurance is ceded to an assuming insurer that is domiciled in,
+or in the case of a U.S. branch of an alien assuming insurer is entered through, a state that employs
+standards regarding credit for reinsurance substantially similar to those applicable under this
+statute and the assuming insurer or U.S. branch of an alien assuming insurer:
+(a) Maintains a surplus as regards policyholders in an amount not less than $20,000,000; and
+(b) Submits to the authority of this state to examine its books and records.
+(2) The requirement of Section 2C(1)(a) does not apply to reinsurance ceded and assumed pursuant to
+pooling arrangements among insurers in the same holding company system.
+Drafting Note: The term “substantially similar” means standards that equal or exceed the standards of the enacting state, as determined by the commissioner
+of the enacting state. It is expected that the NAIC will maintain a list of states whose laws establish standards that equal or exceed the standards of this
+model act.
+D. (1) Credit shall be allowed when the reinsurance is ceded to an assuming insurer that maintains a trust
+fund in a qualified U.S. financial institution, as defined in Section 4B, for the payment of the valid
+claims of its U.S. ceding insurers, their assigns and successors in interest. To enable the
+commissioner to determine the sufficiency of the trust fund, the assuming insurer shall report
+annually to the commissioner information substantially the same as that required to be reported on
+the NAIC Annual Statement form by licensed insurers. The assuming insurer shall submit to
+examination of its books and records by the commissioner and bear the expense of examination.
+(2) (a) Credit for reinsurance shall not be granted under this subsection unless the form of the
+trust and any amendments to the trust have been approved by:
+(i) The commissioner of the state where the trust is domiciled; or
+(ii) The commissioner of another state who, pursuant to the terms of the trust
+instrument, has accepted principal regulatory oversight of the trust.
+(b) The form of the trust and any trust amendments also shall be filed with the commissioner
+of every state in which the ceding insurer beneficiaries of the trust are domiciled. The
+trust instrument shall provide that contested claims shall be valid and enforceable upon
+the final order of any court of competent jurisdiction in the United States. The trust shall
+vest legal title to its assets in its trustees for the benefit of the assuming insurer’s U.S.
+ceding insurers, their assigns and successors in interest. The trust and the assuming
+insurer shall be subject to examination as determined by the commissioner.
+MO-785-2 © 2019 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Summer 2019
+(c) The trust shall remain in effect for as long as the assuming insurer has outstanding
+obligations due under the reinsurance agreements subject to the trust. No later than
+February 28 of each year the trustee of the trust shall report to the commissioner in
+writing the balance of the trust and listing the trust’s investments at the preceding year-
+end and shall certify the date of termination of the trust, if so planned, or certify that the
+trust will not expire prior to the following December 31.
+(3) The following requirements apply to the following categories of assuming insurer:
+(a) The trust fund for a single assuming insurer shall consist of funds in trust in an amount
+not less than the assuming insurer’s liabilities attributable to reinsurance ceded by U.S.
+ceding insurers, and, in addition, the assuming insurer shall maintain a trusteed surplus of
+not less than $20,000,000, except as provided in Paragraph 3(b) of this subsection.
+(b) At any time after the assuming insurer has permanently discontinued underwriting new
+business secured by the trust for at least three full years, the commissioner with principal
+regulatory oversight of the trust may authorize a reduction in the required trusteed
+surplus, but only after a finding, based on an assessment of the risk, that the new required
+surplus level is adequate for the protection of U.S. ceding insurers, policyholders and
+claimants in light of reasonably foreseeable adverse loss development. The risk
+assessment may involve an actuarial review, including an independent analysis of
+reserves and cash flows, and shall consider all material risk factors, including when
+applicable the lines of business involved, the stability of the incurred loss estimates and
+the effect of the surplus requirements on the assuming insurer’s liquidity or solvency. The
+minimum required trusteed surplus may not be reduced to an amount less than thirty
+percent (30%) of the assuming insurer’s liabilities attributable to reinsurance ceded by
+U.S. ceding insurers covered by the trust.
+(c) (i) In the case of a group including incorporated and individual unincorporated
+underwriters:
+(I) For reinsurance ceded under reinsurance agreements with an inception,
+amendment or renewal date on or after January 1, 1993, the trust shall
+consist of a trusteed account in an amount not less than the respective
+underwriters’ several liabilities attributable to business ceded by U.S.
+domiciled ceding insurers to any underwriter of the group;
+(II) For reinsurance ceded under reinsurance agreements with an inception
+date on or before December 31, 1992, and not amended or renewed
+after that date, not-withstanding the other provisions of this Act, the
+trust shall consist of a trusteed account in an amount not less than the
+respective underwriters’ several insurance and reinsurance liabilities
+attributable to business written in the United States; and
+(III) In addition to these trusts, the group shall maintain in trust a trusteed
+surplus of which $100,000,000 shall be held jointly for the benefit of
+the U.S. domiciled ceding insurers of any member of the group for all
+years of account; and
+(ii) The incorporated members of the group shall not be engaged in any business
+other than underwriting as a member of the group and shall be subject to the
+same level of regulation and solvency control by the group’s domiciliary
+regulator as are the unincorporated members.
+(iii) Within ninety (90) days after its financial statements are due to be filed with the
+group’s domiciliary regulator, the group shall provide to the commissioner an
+annual certification by the group’s domiciliary regulator of the solvency of each
+underwriter member; or if a certification is unavailable, financial statements,
+© 2019 National Association of Insurance Commissioners MO-785-3Credit for Reinsurance Model Law
+prepared by independent public accountants, of each underwriter member of the
+group.
+(d) In the case of a group of incorporated underwriters under common administration, the
+group shall:
+(i) Have continuously transacted an insurance business outside the United States for
+at least three (3) years immediately prior to making application for accreditation;
+(ii) Maintain aggregate policyholders’ surplus of at least $10,000,000,000;
+(iii) Maintain a trust fund in an amount not less than the group’s several liabilities
+attributable to business ceded by U.S. domiciled ceding insurers to any member
+of the group pursuant to reinsurance contracts issued in the name of the group;
+(iv) In addition, maintain a joint trusteed surplus of which $100,000,000 shall be
+held jointly for the benefit of U.S. domiciled ceding insurers of any member of
+the group as additional security for these liabilities; and
+(v) Within ninety (90) days after its financial statements are due to be filed with the
+group’s domiciliary regulator, make available to the commissioner an annual
+certification of each underwriter member’s solvency by the member’s
+domiciliary regulator and financial statements of each underwriter member of
+the group prepared by its independent public accountant.
+Drafting Note: Unless otherwise stated, “commissioner” refers to the commissioner of insurance in the state where credit or a reduction from liability is
+taken.
+Drafting Note: Consideration was given to deferring to state capital and surplus requirements as a threshold for the trusteed surplus, but it was concluded
+that, on the basis of risk exposure and current industry security practices, the standards for credit should be higher under Subsection D. The $100,000,000
+trusteed surplus requirement for a group including incorporated and individual unincorporated underwriters reflects the higher financial standards currently
+found among the states for a group of this type. The $20,000,000 trusteed surplus requirement is an option available to assuming insurers that do not satisfy
+both the licensing and financial standards of Subsection B or C.
+E. Credit shall be allowed when the reinsurance is ceded to an assuming insurer that has been certified by the
+commissioner as a reinsurer in this state and secures its obligations in accordance with the requirements of
+this subsection.
+(1) In order to be eligible for certification, the assuming insurer shall meet the following
+requirements:
+(a) The assuming insurer must be domiciled and licensed to transact insurance or reinsurance
+in a qualified jurisdiction, as determined by the commissioner pursuant to Paragraph (3)
+of this subsection;
+(b) The assuming insurer must maintain minimum capital and surplus, or its equivalent, in an
+amount to be determined by the commissioner pursuant to regulation;
+(c) The assuming insurer must maintain financial strength ratings from two or more rating
+agencies deemed acceptable by the commissioner pursuant to regulation;
+(d) The assuming insurer must agree to submit to the jurisdiction of this state, appoint the
+commissioner as its agent for service of process in this state, and agree to provide
+security for 100 percent of the assuming insurer’s liabilities attributable to reinsurance
+ceded by U.S. ceding insurers if it resists enforcement of a final U.S. judgment;
+(e) The assuming insurer must agree to meet applicable information filing requirements as
+determined by the commissioner, both with respect to an initial application for
+certification and on an ongoing basis; and
+MO-785-4 © 2019 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Summer 2019
+(f) The assuming insurer must satisfy any other requirements for certification deemed
+relevant by the commissioner.
+(2) An association including incorporated and individual unincorporated underwriters may be a
+certified reinsurer. In order to be eligible for certification, in addition to satisfying requirements of
+Paragraph (1):
+(a) The association shall satisfy its minimum capital and surplus requirements through the
+capital and surplus equivalents (net of liabilities) of the association and its members,
+which shall include a joint central fund that may be applied to any unsatisfied obligation
+of the association or any of its members, in an amount determined by the commissioner
+to provide adequate protection;
+(b) The incorporated members of the association shall not be engaged in any business other
+than underwriting as a member of the association and shall be subject to the same level of
+regulation and solvency control by the association’s domiciliary regulator as are the
+unincorporated members; and
+(c) Within ninety (90) days after its financial statements are due to be filed with the
+association’s domiciliary regulator, the association shall provide to the commissioner an
+annual certification by the association’s domiciliary regulator of the solvency of each
+underwriter member; or if a certification is unavailable, financial statements, prepared by
+independent public accountants, of each underwriter member of the association.
+(3) The commissioner shall create and publish a list of qualified jurisdictions, under which an
+assuming insurer licensed and domiciled in such jurisdiction is eligible to be considered for
+certification by the commissioner as a certified reinsurer.
+(a) In order to determine whether the domiciliary jurisdiction of a non-U.S. assuming insurer
+is eligible to be recognized as a qualified jurisdiction, the commissioner shall evaluate the
+appropriateness and effectiveness of the reinsurance supervisory system of the
+jurisdiction, both initially and on an ongoing basis, and consider the rights, benefits and
+the extent of reciprocal recognition afforded by the non-U.S. jurisdiction to reinsurers
+licensed and domiciled in the U.S. A qualified jurisdiction must agree to share
+information and cooperate with the commissioner with respect to all certified reinsurers
+domiciled within that jurisdiction. A jurisdiction may not be recognized as a qualified
+jurisdiction if the commissioner has determined that the jurisdiction does not adequately
+and promptly enforce final U.S. judgments and arbitration awards. Additional factors
+may be considered in the discretion of the commissioner.
+(b) A list of qualified jurisdictions shall be published through the NAIC Committee Process.
+The commissioner shall consider this list in determining qualified jurisdictions. If the
+commissioner approves a jurisdiction as qualified that does not appear on the list of
+qualified jurisdictions, the commissioner shall provide thoroughly documented
+justification in accordance with criteria to be developed under regulations.
+(c) U.S. jurisdictions that meet the requirement for accreditation under the NAIC financial
+standards and accreditation program shall be recognized as qualified jurisdictions.
+(d) If a certified reinsurer’s domiciliary jurisdiction ceases to be a qualified jurisdiction, the
+commissioner has the discretion to suspend the reinsurer’s certification indefinitely, in
+lieu of revocation.
+(4) The commissioner shall assign a rating to each certified reinsurer, giving due consideration to the
+financial strength ratings that have been assigned by rating agencies deemed acceptable to the
+commissioner pursuant to regulation. The commissioner shall publish a list of all certified
+reinsurers and their ratings.
+© 2019 National Association of Insurance Commissioners MO-785-5Credit for Reinsurance Model Law
+(5) A certified reinsurer shall secure obligations assumed from U.S. ceding insurers under this
+subsection at a level consistent with its rating, as specified in regulations promulgated by the
+commissioner.
+(a) In order for a domestic ceding insurer to qualify for full financial statement credit for
+reinsurance ceded to a certified reinsurer, the certified reinsurer shall maintain security in
+a form acceptable to the commissioner and consistent with the provisions of Section 3, or
+in a multibeneficiary trust in accordance with Subsection D of this section, except as
+otherwise provided in this subsection.
+(b) If a certified reinsurer maintains a trust to fully secure its obligations subject to
+Subsection D of this section, and chooses to secure its obligations incurred as a certified
+reinsurer in the form of a multibeneficiary trust, the certified reinsurer shall maintain
+separate trust accounts for its obligations incurred under reinsurance agreements issued or
+renewed as a certified reinsurer with reduced security as permitted by this subsection or
+comparable laws of other U.S. jurisdictions and for its obligations subject to Subsection
+D of this section. It shall be a condition to the grant of certification under Subsection E of
+this section that the certified reinsurer shall have bound itself, by the language of the trust
+and agreement with the commissioner with principal regulatory oversight of each such
+trust account, to fund, upon termination of any such trust account, out of the remaining
+surplus of such trust any deficiency of any other such trust account.
+(c) The minimum trusteed surplus requirements provided in Subsection D are not applicable
+with respect to a multibeneficiary trust maintained by a certified reinsurer for the purpose
+of securing obligations incurred under this subsection, except that such trust shall
+maintain a minimum trusteed surplus of $10,000,000.
+(d) With respect to obligations incurred by a certified reinsurer under this subsection, if the
+security is insufficient, the commissioner shall reduce the allowable credit by an amount
+proportionate to the deficiency, and has the discretion to impose further reductions in
+allowable credit upon finding that there is a material risk that the certified reinsurer’s
+obligations will not be paid in full when due.
+(e) For purposes of this subsection, a certified reinsurer whose certification has been
+terminated for any reason shall be treated as a certified reinsurer required to secure 100
+percent of its obligations.
+(i) As used in this subsection, the term “terminated” refers to revocation,
+suspension, voluntary surrender and inactive status.
+(ii) If the commissioner continues to assign a higher rating as permitted by other
+provisions of this section, this requirement does not apply to a certified reinsurer
+in inactive status or to a reinsurer whose certification has been suspended.
+(6) If an applicant for certification has been certified as a reinsurer in an NAIC accredited jurisdiction,
+the commissioner has the discretion to defer to that jurisdiction’s certification, and has the
+discretion to defer to the rating assigned by that jurisdiction, and such assuming insurer shall be
+considered to be a certified reinsurer in this state.
+(7) A certified reinsurer that ceases to assume new business in this state may request to maintain its
+certification in inactive status in order to continue to qualify for a reduction in security for its in-
+force business. An inactive certified reinsurer shall continue to comply with all applicable
+requirements of this subsection, and the commissioner shall assign a rating that takes into account,
+if relevant, the reasons why the reinsurer is not assuming new business.
+F. (1) Credit shall be allowed when the reinsurance is ceded to an assuming insurer meeting each of the
+conditions set forth below.
+MO-785-6 © 2019 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Summer 2019
+(a) The assuming insurer must have its head office or be domiciled in, as applicable, and be
+licensed in a Reciprocal Jurisdiction. A “Reciprocal Jurisdiction” is a jurisdiction that
+meets one of the following:
+(i) A non-U.S. jurisdiction that is subject to an in-force covered agreement with the
+United States, each within its legal authority, or, in the case of a covered
+agreement between the United States and European Union, is a member state of
+the European Union. For purposes of this subsection, a “covered agreement” is
+an agreement entered into pursuant to Dodd-Frank Wall Street Reform and
+Consumer Protection Act, 31 U.S.C. §§ 313 and 314, that is currently in effect
+or in a period of provisional application and addresses the elimination, under
+specified conditions, of collateral requirements as a condition for entering into
+any reinsurance agreement with a ceding insurer domiciled in this state or for
+allowing the ceding insurer to recognize credit for reinsurance;
+(ii) A U.S. jurisdiction that meets the requirements for accreditation under the NAIC
+financial standards and accreditation program; or
+(iii) A qualified jurisdiction, as determined by the commissioner pursuant to
+[Subsection 2E(3) of Credit for Reinsurance Model Law (#785)], which is not
+otherwise described in Subparagraphs (a)(i) or (a)(ii) above and which meets
+certain additional requirements, consistent with the terms and conditions of in-
+force covered agreements, as specified by the commissioner in regulation.
+(b) The assuming insurer must have and maintain, on an ongoing basis, minimum capital and
+surplus, or its equivalent, calculated according to the methodology of its domiciliary
+jurisdiction, in an amount to be set forth in regulation. If the assuming insurer is an
+association, including incorporated and individual unincorporated underwriters, it must
+have and maintain, on an ongoing basis, minimum capital and surplus equivalents (net of
+liabilities), calculated according to the methodology applicable in its domiciliary
+jurisdiction, and a central fund containing a balance in amounts to be set forth in
+regulation.
+(c) The assuming insurer must have and maintain, on an ongoing basis, a minimum solvency
+or capital ratio, as applicable, which will be set forth in regulation. If the assuming
+insurer is an association, including incorporated and individual unincorporated
+underwriters, it must have and maintain, on an ongoing basis, a minimum solvency or
+capital ratio in the Reciprocal Jurisdiction where the assuming insurer has its head office
+or is domiciled, as applicable, and is also licensed.
+(d) The assuming insurer must agree and provide adequate assurance to the commissioner, in
+a form specified by the commissioner pursuant to regulation, as follows:
+(i) The assuming insurer must provide prompt written notice and explanation to the
+commissioner if it falls below the minimum requirements set forth in
+Subparagraphs (b) or (c), or if any regulatory action is taken against it for
+serious noncompliance with applicable law;
+(ii) The assuming insurer must consent in writing to the jurisdiction of the courts of
+this state and to the appointment of the commissioner as agent for service of
+process. The commissioner may require that consent for service of process be
+provided to the commissioner and included in each reinsurance agreement.
+Nothing in this provision shall limit, or in any way alter, the capacity of parties
+to a reinsurance agreement to agree to alternative dispute resolution
+mechanisms, except to the extent such agreements are unenforceable under
+applicable insolvency or delinquency laws;
+© 2019 National Association of Insurance Commissioners MO-785-7Credit for Reinsurance Model Law
+(iii) The assuming insurer must consent in writing to pay all final judgments,
+wherever enforcement is sought, obtained by a ceding insurer or its legal
+successor, that have been declared enforceable in the jurisdiction where the
+judgment was obtained;
+(iv) Each reinsurance agreement must include a provision requiring the assuming
+insurer to provide security in an amount equal to one hundred percent (100%) of
+the assuming insurer’s liabilities attributable to reinsurance ceded pursuant to
+that agreement if the assuming insurer resists enforcement of a final judgment
+that is enforceable under the law of the jurisdiction in which it was obtained or a
+properly enforceable arbitration award, whether obtained by the ceding insurer
+or by its legal successor on behalf of its resolution estate; and
+(v) The assuming insurer must confirm that it is not presently participating in any
+solvent scheme of arrangement which involves this state’s ceding insurers, and
+agree to notify the ceding insurer and the commissioner and to provide security
+in an amount equal to one hundred percent (100%) of the assuming insurer’s
+liabilities to the ceding insurer, should the assuming insurer enter into such a
+solvent scheme of arrangement. Such security shall be in a form consistent with
+the provisions of Section 2E and Section 3 and as specified by the commissioner
+in regulation.
+Drafting Note: Section 9C(4)(e) of the Credit for Reinsurance Model Regulation (#786) sets forth the acceptable forms of security under this subparagraph
+by specifically referencing Sections 12, 13 and 14 of Model #786.
+(e) The assuming insurer or its legal successor must provide, if requested by the
+commissioner, on behalf of itself and any legal predecessors, certain documentation to
+the commissioner, as specified by the commissioner in regulation.
+(f) The assuming insurer must maintain a practice of prompt payment of claims under
+reinsurance agreements, pursuant to criteria set forth in regulation.
+(g) The assuming insurer’s supervisory authority must confirm to the commissioner on an
+annual basis, as of the preceding December 31 or at the annual date otherwise statutorily
+reported to the Reciprocal Jurisdiction, that the assuming insurer complies with the
+requirements set forth in Subparagraphs (b) and (c).
+(h) Nothing in this provision precludes an assuming insurer from providing the
+commissioner with information on a voluntary basis.
+(2) The commissioner shall timely create and publish a list of Reciprocal Jurisdictions.
+(a) A list of Reciprocal Jurisdictions is published through the NAIC Committee Process. The
+commissioner’s list shall include any Reciprocal Jurisdiction as defined under Section
+2F(1)(a)(i) and (ii), and shall consider any other Reciprocal Jurisdiction included on the
+NAIC list. The commissioner may approve a jurisdiction that does not appear on the
+NAIC list of Reciprocal Jurisdictions in accordance with criteria to be developed under
+regulations issued by the commissioner.
+(b) The commissioner may remove a jurisdiction from the list of Reciprocal Jurisdictions
+upon a determination that the jurisdiction no longer meets the requirements of a
+Reciprocal Jurisdiction, in accordance with a process set forth in regulations issued by the
+commissioner, except that the commissioner shall not remove from the list a Reciprocal
+Jurisdiction as defined under Section 2F(1)(a)(i) and (ii). Upon removal of a Reciprocal
+Jurisdiction from this list credit for reinsurance ceded to an assuming insurer which has
+its home office or is domiciled in that jurisdiction shall be allowed, if otherwise allowed
+pursuant to [cite to state law equivalent to Credit for Reinsurance Model Law (#785)].
+MO-785-8 © 2019 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Summer 2019
+(3) The commissioner shall timely create and publish a list of assuming insurers that have satisfied the
+conditions set forth in this subsection and to which cessions shall be granted credit in accordance
+with this subsection. The commissioner may add an assuming insurer to such list if an NAIC
+accredited jurisdiction has added such assuming insurer to a list of such assuming insurers or if,
+upon initial eligibility, the assuming insurer submits the information to the commissioner as
+required under Paragraph (1)(d) of this subsection and complies with any additional requirements
+that the commissioner may impose by regulation, except to the extent that they conflict with an
+applicable covered agreement.
+(4) If the commissioner determines that an assuming insurer no longer meets one or more of the
+requirements under this subsection, the commissioner may revoke or suspend the eligibility of the
+assuming insurer for recognition under this subsection in accordance with procedures set forth in
+regulation.
+(a) While an assuming insurer’s eligibility is suspended, no reinsurance agreement issued,
+amended or renewed after the effective date of the suspension qualifies for credit except
+to the extent that the assuming insurer’s obligations under the contract are secured in
+accordance with Section 3.
+(b) If an assuming insurer’s eligibility is revoked, no credit for reinsurance may be granted
+after the effective date of the revocation with respect to any reinsurance agreements
+entered into by the assuming insurer, including reinsurance agreements entered into prior
+to the date of revocation, except to the extent that the assuming insurer’s obligations
+under the contract are secured in a form acceptable to the commissioner and consistent
+with the provisions of Section 3.
+(5) If subject to a legal process of rehabilitation, liquidation or conservation, as applicable, the ceding
+insurer, or its representative, may seek and, if determined appropriate by the court in which the
+proceedings are pending, may obtain an order requiring that the assuming insurer post security for
+all outstanding ceded liabilities.
+(6) Nothing in this subsection shall limit or in any way alter the capacity of parties to a reinsurance
+agreement to agree on requirements for security or other terms in that reinsurance agreement,
+except as expressly prohibited by this [cite to state law equivalent to Credit for Reinsurance Model
+Law (#785)] or other applicable law or regulation.
+(7) Credit may be taken under this subsection only for reinsurance agreements entered into, amended,
+or renewed on or after the effective date of the statute adding this subsection, and only with
+respect to losses incurred and reserves reported on or after the later of (i) the date on which the
+assuming insurer has met all eligibility requirements pursuant to Section 2F(1) herein, and (ii) the
+effective date of the new reinsurance agreement, amendment, or renewal.
+(a) This paragraph does not alter or impair a ceding insurer’s right to take credit for
+reinsurance, to the extent that credit is not available under this subsection, as long as the
+reinsurance qualifies for credit under any other applicable provision of [cite to state law
+equivalent to Credit for Reinsurance Model Law (#785)].
+(b) Nothing in this subsection shall authorize an assuming insurer to withdraw or reduce the
+security provided under any reinsurance agreement except as permitted by the terms of
+the agreement.
+(c) Nothing in this subsection shall limit, or in any way alter, the capacity of parties to any
+reinsurance agreement to renegotiate the agreement.
+G. Credit shall be allowed when the reinsurance is ceded to an assuming insurer not meeting the requirements
+of Subsections A, B, C, D, E or F of this section, but only as to the insurance of risks located in
+jurisdictions where the reinsurance is required by applicable law or regulation of that jurisdiction.
+© 2019 National Association of Insurance Commissioners MO-785-9Credit for Reinsurance Model Law
+Drafting Note: For purposes of this subsection, “jurisdiction” refers to those jurisdictions other than the United States and also to any state, district or
+territory of the United States. Subsection E allows credit to ceding insurers that are mandated by these jurisdictions to cede to state-owned or controlled
+insurance or reinsurance companies or to participate in pools, guaranty associations or residual market mechanisms.
+H. If the assuming insurer is not licensed, accredited or certified to transact insurance or reinsurance in this
+state, the credit permitted by Subsections C and D of this section shall not be allowed unless the assuming
+insurer agrees in the reinsurance agreements:
+(1) (a) That in the event of the failure of the assuming insurer to perform its obligations under
+the terms of the reinsurance agreement, the assuming insurer, at the request of the ceding
+insurer, shall submit to the jurisdiction of any court of competent jurisdiction in any state
+of the United States, will comply with all requirements necessary to give the court
+jurisdiction, and will abide by the final decision of the court or of any appellate court in
+the event of an appeal; and
+(b) To designate the commissioner or a designated attorney as its true and lawful attorney
+upon whom may be served any lawful process in any action, suit or proceeding instituted
+by or on behalf of the ceding insurer.
+(2) This subsection is not intended to conflict with or override the obligation of the parties to a
+reinsurance agreement to arbitrate their disputes, if this obligation is created in the agreement.
+I. If the assuming insurer does not meet the requirements of Subsections A, B, C or F, the credit permitted by
+Subsection D or E of this section shall not be allowed unless the assuming insurer agrees in the trust
+agreements to the following conditions:
+(1) Notwithstanding any other provisions in the trust instrument, if the trust fund is inadequate
+because it contains an amount less than the amount required by Subsection D(3) of this section, or
+if the grantor of the trust has been declared insolvent or placed into receivership, rehabilitation,
+liquidation or similar proceedings under the laws of its state or country of domicile, the trustee
+shall comply with an order of the commissioner with regulatory oversight over the trust or with an
+order of a court of competent jurisdiction directing the trustee to transfer to the commissioner with
+regulatory oversight all of the assets of the trust fund.
+(2) The assets shall be distributed by and claims shall be filed with and valued by the commissioner
+with regulatory oversight in accordance with the laws of the state in which the trust is domiciled
+that are applicable to the liquidation of domestic insurance companies.
+(3) If the commissioner with regulatory oversight determines that the assets of the trust fund or any
+part thereof are not necessary to satisfy the claims of the U.S. ceding insurers of the grantor of the
+trust, the assets or part thereof shall be returned by the commissioner with regulatory oversight to
+the trustee for distribution in accordance with the trust agreement.
+(4) The grantor shall waive any right otherwise available to it under U.S. law that is inconsistent with
+this provision.
+J. If an accredited or certified reinsurer ceases to meet the requirements for accreditation or certification, the
+commissioner may suspend or revoke the reinsurer’s accreditation or certification.
+(1) The commissioner must give the reinsurer notice and opportunity for hearing. The suspension or
+revocation may not take effect until after the commissioner’s order on hearing, unless:
+(a) The reinsurer waives its right to hearing;
+(b) The commissioner’s order is based on regulatory action by the reinsurer’s domiciliary
+jurisdiction or the voluntary surrender or termination of the reinsurer’s eligibility to
+transact insurance or reinsurance business in its domiciliary jurisdiction or in the primary
+certifying state of the reinsurer under Subparagraph E(6) of this section; or
+MO-785-10 © 2019 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Summer 2019
+(c) The commissioner finds that an emergency requires immediate action and a court of
+competent jurisdiction has not stayed the commissioner’s action.
+(2) While a reinsurer’s accreditation or certification is suspended, no reinsurance contract issued or
+renewed after the effective date of the suspension qualifies for credit except to the extent that the
+reinsurer’s obligations under the contract are secured in accordance with Section 3. If a reinsurer’s
+accreditation or certification is revoked, no credit for reinsurance may be granted after the
+effective date of the revocation except to the extent that the reinsurer’s obligations under the
+contract are secured in accordance with Subsection E(5) or Section 3.
+K. Concentration Risk.
+(1) A ceding insurer shall take steps to manage its reinsurance recoverables proportionate to its own
+book of business. A domestic ceding insurer shall notify the commissioner within thirty (30) days
+after reinsurance recoverables from any single assuming insurer, or group of affiliated assuming
+insurers, exceeds fifty percent (50%) of the domestic ceding insurer’s last reported surplus to
+policyholders, or after it is determined that reinsurance recoverables from any single assuming
+insurer, or group of affiliated assuming insurers, is likely to exceed this limit. The notification
+shall demonstrate that the exposure is safely managed by the domestic ceding insurer.
+(2) A ceding insurer shall take steps to diversify its reinsurance program. A domestic ceding insurer
+shall notify the commissioner within thirty (30) days after ceding to any single assuming insurer,
+or group of affiliated assuming insurers, more than twenty percent (20%) of the ceding insurer’s
+gross written premium in the prior calendar year, or after it has determined that the reinsurance
+ceded to any single assuming insurer, or group of affiliated assuming insurers, is likely to exceed
+this limit. The notification shall demonstrate that the exposure is safely managed by the domestic
+ceding insurer.
+Section 3. Asset or Reduction from Liability for Reinsurance Ceded by a Domestic Insurer to an Assuming
+Insurer not Meeting the Requirements of Section 2
+An asset or a reduction from liability for the reinsurance ceded by a domestic insurer to an assuming insurer not meeting the
+requirements of Section 2 shall be allowed in an amount not exceeding the liabilities carried by the ceding insurer; provided
+further, that the commissioner may adopt by regulation pursuant to Section 5B specific additional requirements relating to or
+setting forth: (1) the valuation of assets or reserve credits; (2) the amount and forms of security supporting reinsurance
+arrangements described in Section 5B; and/or (3) the circumstances pursuant to which credit will be reduced or eliminated.
+Drafting Note: This new regulatory authority is being added in response to reinsurance arrangements entered into, directly or indirectly, with life/health
+insurer-affiliated captives, special purpose vehicles or similar entities that may not have the same statutory accounting requirements or solvency
+requirements as US-based multi-state life/health insurers. To assist in achieving national uniformity, commissioners are asked to strongly consider adopting
+regulations that are substantially similar in all material respects to NAIC adopted model regulations in the handling and treatment of such reinsurance
+arrangements.
+The reduction shall be in the amount of funds held by or on behalf of the ceding insurer, including funds held in trust for the
+ceding insurer, under a reinsurance contract with the assuming insurer as security for the payment of obligations thereunder,
+if the security is held in the United States subject to withdrawal solely by, and under the exclusive control of, the ceding
+insurer; or, in the case of a trust, held in a qualified U.S. financial institution, as defined in Section 4B. This security may be
+in the form of:
+A. Cash;
+B. Securities listed by the Securities Valuation Office of the National Association of Insurance
+Commissioners, including those deemed exempt from filing as defined by the Purposes and Procedures
+Manual of the Securities Valuation Office, and qualifying as admitted assets;
+C. (1) Clean, irrevocable, unconditional letters of credit, issued or confirmed by a qualified U.S. financial
+institution, as defined in Section 4A, effective no later than December 31 of the year for which the
+filing is being made, and in the possession of, or in trust for, the ceding insurer on or before the
+filing date of its annual statement;
+© 2019 National Association of Insurance Commissioners MO-785-11Credit for Reinsurance Model Law
+(2) Letters of credit meeting applicable standards of issuer acceptability as of the dates of their
+issuance (or confirmation) shall, notwithstanding the issuing (or confirming) institution’s
+subsequent failure to meet applicable standards of issuer acceptability, continue to be acceptable
+as security until their expiration, extension, renewal, modification or amendment, whichever first
+occurs; or
+Drafting Note: Providing for the continuing acceptability of letters of credit whose issuers were acceptable when the credit support facility was first
+obtained is intended to avoid abrupt interruptions in the acceptability of credit support arrangements that run for specific periods of time, and thus
+unnecessary disruptions in the marketplace, on account of the issuing (or confirming) institution’s subsequent failure to meet applicable standards of issuer
+acceptability (whether by virtue of a change in the issuing institution’s ability to qualify under the original standards or as a result of revisions to the
+applicable standards). The provision stipulates that letters of credit acceptable when first obtained will, in the event of the subsequent nonqualification of the
+issuing (or confirming) institution, continue to be acceptable as security until the account party and beneficiary would first have, in the normal course of
+business, an opportunity to replace the credit support facility.
+D. Any other form of security acceptable to the commissioner.
+Drafting Note: There is no implication in the requirement that the security for the payment of obligations must be held under the exclusive control of the
+ceding insurer that either the reserve liability or the assets held in relation to the reserve liability have not been transferred for the purposes of statutory
+accounting by the ceding insurer to the reinsurer.
+Section 4. Qualified U.S. Financial Institutions
+A. For purposes of Section 3C, a “qualified U.S. financial institution” means an institution that:
+(1) Is organized or (in the case of a U.S. office of a foreign banking organization) licensed, under the
+laws of the United States or any state thereof;
+(2) Is regulated, supervised and examined by U.S. federal or state authorities having regulatory
+authority over banks and trust companies; and
+(3) Has been determined by either the commissioner or the Securities Valuation Office of the National
+Association of Insurance Commissioners to meet such standards of financial condition and
+standing as are considered necessary and appropriate to regulate the quality of financial
+institutions whose letters of credit will be acceptable to the commissioner.
+Drafting Note: The NAIC’s Securities Valuation Office (SVO) maintains, on a current basis, a list of all U.S. financial institutions that have, upon
+application to the SVO, been determined to meet the eligibility standards of its Purposes and Procedures Manual. These standards, developed by the
+NAIC’s Letter of Credit (EX4) Study Group, make use of nationally recognized ratings services, and are more rigorous in the case of foreign banking
+organizations (whose standby letters of credit must be issued or confirmed by a qualified U.S. financial institution) than those that are applicable to domestic
+financial institutions whose standby letters of credit would be considered acceptable.
+B. A “qualified U.S. financial institution” means, for purposes of those provisions of this law specifying those
+institutions that are eligible to act as a fiduciary of a trust, an institution that:
+(1) Is organized, or, in the case of a U.S. branch or agency office of a foreign banking organization,
+licensed, under the laws of the United States or any state thereof and has been granted authority to
+operate with fiduciary powers; and
+(2) Is regulated, supervised and examined by federal or state authorities having regulatory authority
+over banks and trust companies.
+Drafting Note: Because assets held in a fiduciary capacity are not subject to the claims of the trustee’s creditors, and because the trust departments of all
+U.S. financial institutions (including U.S. branch or agency offices of foreign banking organizations having fiduciary powers in the U.S.) are regulated,
+supervised and examined by the institution’s primary U.S. bank regulatory authority (federal or state), there is no need to apply additional standards
+measuring the financial condition or standing of the institution, as in the case of determining those institutions whose standby letter of credit obligations will
+be considered acceptable.
+Section 5. Rules and Regulations
+A. The commissioner may adopt rules and regulations implementing the provisions of this law.
+Drafting Note: It is recognized that credit for reinsurance also can be affected by other sections of the enacting state’s code, e.g., a statutory insolvency
+clause or an intermediary clause. It is recommended that states that do not have a statutory insolvency clause or an intermediary clause consider
+incorporating such clauses in their legislation.
+MO-785-12 © 2019 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Summer 2019
+B. The commissioner is further authorized to adopt rules and regulations applicable to reinsurance
+arrangements described in Paragraph (1) of this Section 5B.
+Drafting Note: This new regulatory authority is being added in response to reinsurance arrangements entered into, directly or indirectly, with life/health
+insurer-affiliated captives, special purpose vehicles or similar entities that may not have the same statutory accounting requirements or solvency
+requirements as US-based multi-state life/health insurers. To assist in achieving national uniformity, commissioners are asked to strongly consider adopting
+regulations that are substantially similar in all material respects to NAIC adopted model regulations in the handling and treatment of such policies and
+reinsurance arrangements.
+(1) A regulation adopted pursuant to this Section 5B, may apply only to reinsurance relating to:
+(a) Life insurance policies with guaranteed nonlevel gross premiums or guaranteed nonlevel
+benefits;
+(b) Universal life insurance policies with provisions resulting in the ability of a policyholder
+to keep a policy in force over a secondary guarantee period;
+(c) Variable annuities with guaranteed death or living benefits;
+(d) Long-term care insurance policies; or
+(e) Such other life and health insurance and annuity products as to which the NAIC adopts
+model regulatory requirements with respect to credit for reinsurance.
+(2) A regulation adopted pursuant to Paragraph 1(a) or 1(b) of this Section 5B, may apply to any
+treaty containing (i) policies issued on or after January 1, 2015, and/or (ii) policies issued prior to
+January 1, 2015, if risk pertaining to such pre-2015 policies is ceded in connection with the treaty,
+in whole or in part, on or after January 1, 2015.
+Drafting Note: The NAIC’s Actuarial Guideline XLVIII (AG 48) became effective January 1, 2015, and covers policies ceded on or after this date unless
+they were ceded as part of a reserve financing arrangement as of December 31, 2014. One regulation contemplated by this revision to the NAIC Credit for
+Reinsurance Model Law (#785) is intended to substantially replicate the requirements for the amounts and forms of security held under the rules provided in
+AG 48. AG 48 was written to sunset upon a state’s adoption (pursuant to the enabling authority of the preceding paragraph) of a regulation with terms
+substantially similar to AG 48. The preceding paragraph is intended to provide continuity of rules applicable to those policies and reinsurance arrangements,
+including continuity as to the policies covered by such rules. The preceding paragraph is not intended to change the scope of, or collateral requirements for
+policies and treaties covered under AG 48.
+(3) A regulation adopted pursuant to this Section 5B may require the ceding insurer, in calculating the
+amounts or forms of security required to be held under regulations promulgated under this
+authority, to use the Valuation Manual adopted by the NAIC under Section 11B(1) of the NAIC
+Standard Valuation Law, including all amendments adopted by the NAIC and in effect on the date
+as of which the calculation is made, to the extent applicable.
+(4) A regulation adopted pursuant to this Section 5B shall not apply to cessions to an assuming insurer
+that:
+(a) Meets the conditions set forth in Section 2F of the Credit for Reinsurance Model Law
+(#785) in this state or, if this state has not adopted provisions substantially equivalent to
+Section 2F of the Credit for Reinsurance Model Law (#785), the assuming insurer is
+operating in accordance with provisions substantially equivalent to Section 2F of the
+Credit for Reinsurance Model Law (#785) in a minimum of five (5) other states; or
+(b) Is certified in this state or, if this state has not adopted provisions substantially equivalent
+to Section 2E of the Credit for Reinsurance Model Law (#785), certified in a minimum of
+five (5) other states; or
+(c) Maintains at least $250 million in capital and surplus when determined in accordance
+with the NAIC Accounting Practices and Procedures Manual, including all amendments
+thereto adopted by the NAIC, excluding the impact of any permitted or prescribed
+practices; and is
+© 2019 National Association of Insurance Commissioners MO-785-13Credit for Reinsurance Model Law
+(i) licensed in at least 26 states; or
+(ii) licensed in at least 10 states, and licensed or accredited in a total of at least 35
+states.
+(5) The authority to adopt regulations pursuant to this Section 5B does not limit the commissioner’s
+general authority to adopt regulations pursuant to Section 5A of this law.
+Section 6. Reinsurance Agreements Affected
+This Act shall apply to all cessions after the effective date of this Act under reinsurance agreements that have an inception,
+anniversary or renewal date not less than six (6) months after the effective date of this Act.
+Drafting Note: The enacting state may wish to provide a delay in the applicability greater than six (6) months to allow time for the insurance commissioner
+to promulgate regulations and to allow reinsurers to prepare and submit qualifying data.
+_____________________________
+Chronological Summary of Actions (All references are to the Proceedings of the NAIC).
+1984 Proc. II 9, 29, 822, 836, 837-839 (adopted).
+1986 Proc. I 9-10, 24, 799, 811, 812 (corrected).
+1987 Proc. II 15, 24, 444-448, 832, 854, 856 (amended and reprinted).
+1990 Proc. I 12-14, 851, 857-861 (amended at special plenary session September 1989 and reprinted).
+1990 Proc. I 6, 30, 840, 872, 875-878 (technical amendments adopted at winter plenary and reprinted).
+1990 Proc. II 7, 18, 748, 766, 780-783 (amended).
+1993 Proc. 4th Quarter 6, 31, 835-836, 874, 891 (amended).
+1996 Proc. 2nd Quarter 12, 12-17, 24, 862 (amended and reprinted).
+2011 Proc. 3rd Quarter 113-114, 131-137, 222-236, 289-298 (amended).
+2016 Proc. 1st Quarter Vol. I 111, 131, 138, 141, 145, 150-171 (amended).
+2019 Proc. 2nd Quarter (amended).
+MO-785-14 © 2019 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Fall 2020
+CREDIT FOR REINSURANCE MODEL LAW
+This chart is intended to provide readers with additional information to more easily access state statutes, regulations,
+bulletins or administrative rulings related to the NAIC model. Such guidance provides readers with a starting point
+from which they may review how each state has addressed the model and the topic being covered. The NAIC Legal
+Division has reviewed each state’s activity in this area and has determined whether the citation most appropriately
+fits in the Model Adoption column or Related State Activity column based on the definitions listed below. The NAIC’s
+interpretation may or may not be shared by the individual states or by interested readers.
+This chart does not constitute a formal legal opinion by the NAIC staff on the provisions of state law and should not
+be relied upon as such. Nor does this state page reflect a determination as to whether a state meets any applicable
+accreditation standards. Every effort has been made to provide correct and accurate summaries to assist readers in
+locating useful information. Readers should consult state law for further details and for the most current information.
+© 2020 National Association of Insurance Commissioners ST-785-1NAIC Model Laws, Regulations, Guidelines and Other Resources—Fall 2020
+CREDIT FOR REINSURANCE MODEL LAW
+KEY:
+MODEL ADOPTION: States that have citations identified in this column adopted the most recent version of the NAIC
+model in a substantially similar manner. This requires states to adopt the model in its entirety but does allow for variations
+in style and format. States that have adopted portions of the current NAIC model will be included in this column with an
+explanatory note.
+RELATED STATE ACTIVITY: Examples of Related State Activity include but are not limited to: older versions of the
+NAIC model, statutes or regulations addressing the same subject matter, or other administrative guidance such as bulletins
+and notices. States that have citations identified in this column only (and nothing listed in the Model Adoption column) have
+not adopted the most recent version of the NAIC model in a substantially similar manner.
+NO CURRENT ACTIVITY: No state activity on the topic as of the date of the most recent update. This includes states that
+have repealed legislation as well as states that have never adopted legislation.
+NAIC MEMBER MODEL ADOPTION RELATED STATE ACTIVITY
+Alabama ALA. ADMIN. CODE r. 27-5b-1 to 27-5b-19
+(2013) (previous version of model).
+Alaska ALASKA STAT. § 21.12.020 (1966/2018)
+(previous version of model).
+American Samoa NO CURRENT ACTIVITY
+Arizona ARIZ. REV. STAT. ANN. §§ 20-261.01 to
+20-261.08 (1991/2015) (previous version of
+model).
+Arkansas ARK. CODE ANN. §§ 23-62-305 to 23-62-309
+(1991/2015) (previous version of model).
+California A.B. 2049 (2020). CAL. INS. CODE §§ 922.2 to 922.9 (2017)
+(previous version of model); BULLETIN 87-10
+(1987); BULLETIN 2011-2 (2011).
+Colorado COLO. REV. STAT. §§ 10-3-701 to 10-3-706
+(2014) (previous version of model).
+Connecticut CON. GEN. STAT. §§ 38a-85 to 38a-89
+(1991/2017) (previous version of model);
+BULLETIN FS-24-2012 (2012); BULLETIN
+FS-25-2013 (2013); BULLETIN FS-25-1-2013
+(2013).
+Delaware DEL. CODE ANN. tit. 18, §§ 910 to 916
+(1953/2012).
+District of Columbia D.C. CODE §§ 31-501 to 31-503 (1993/2019)
+(previous version of model).
+ST-785-2 © 2020 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Fall 2020
+CREDIT FOR REINSURANCE MODEL LAW
+NAIC MEMBER MODEL ADOPTION RELATED STATE ACTIVITY
+Florida FLA. STAT. ANN. § 624.610 (1959/2012)
+(previous version of model); FLA. ADMIN.
+CODE ANN. r. 69o144.001 to 69o.144.010
+(1991/2017) (previous version of model).
+Georgia S.B. 188 (2020). GA. CODE ANN. § 33-7-14 (2012).
+Guam NO CURRENT ACTIVITY
+Hawaii HAW. REV. STAT. §§ 431:4A-101 to
+431:4A-104 (1992/2014) (previous version of
+model); § 431:5-306 (1988/2004).
+Idaho IDAHO CODE ANN. §§ 41-514 to
+41-515 (1991/2017) (previous version of
+model).
+Illinois 215 ILL. COMP. STAT. 5/173.1 (1991/2018)
+(previous version of model).
+Indiana H.B. 1372 (2020). IND. CODE §§ 27-6-10-1 to 27-6-10-15
+(1994/2018) (previous version of model).
+Iowa S.F. 2131 (2020). IOWA CODE §§ 521B.101 to 521B.106
+(2013/2017) (previous version of model).
+Kansas KAN. STAT. ANN. § 40-221a (1965/2018).
+Kentucky H.B. 417 (2020). KY. REV. STAT. ANN. § 304.5-140
+(1970/2018) (previous version of model).
+Louisiana H.B. 247 (2020). LA. REV. STAT. ANN. §§ 22:651 to 22:652
+(1958/2016) (previous version of model);
+ADVISORY LETTER 2014-2 (2014).
+Maine ME. REV. STAT. ANN. tit. 24-A, § 731-B
+(1985/2017) (previous version of model).
+Maryland S.B. 167 (2020). MD. CODE ANN. INS. §§ 5-901 to 5-916
+(2013) (previous version of model); MD.
+CODE REGS. 31.05.08.01 to 31.05.08.07
+(1993/2014).
+Massachusetts MASS. GEN. LAWS ch. 175, §§ 20 to 20A
+(1941/2018) (previous version of model).
+Michigan MICH. COMP. LAWS §§ 500.1101 to 500.1127
+(1994/2018) (previous version of model).
+© 2020 National Association of Insurance Commissioners ST-785-3NAIC Model Laws, Regulations, Guidelines and Other Resources—Fall 2020
+CREDIT FOR REINSURANCE MODEL LAW
+NAIC MEMBER MODEL ADOPTION RELATED STATE ACTIVITY
+Minnesota MINN. STAT. §§ 60a.091 to 60a.097
+(1991/2018) (previous version of model).
+Mississippi H.B. 408 (2020). MISS. CODE ANN. §§ 83-19-151 to 83-19-157
+(1991/2017) (previous version of model).
+Missouri MO. REV. STAT. § 375.246 (1990/2013)
+(previous version of model); BULLETIN
+2004-03 (2004).
+Montana MONT. CODE ANN. §§ 33-2-1216 to
+33-2-12186 (1993/2019) (previous version of
+model).
+Nebraska L.B. 774 (2020). NEB. REV. STAT. §§ 44-416.05 to 44-416.17
+(1985/2018) (previous version of model).
+Nevada NEV. REV. STAT. §§ 681A.110 to 681A.240
+(1971/2017) (previous version of model).
+New Hampshire H.B. 1245 (2020). N.H. REV. STAT. ANN. §§ 405:45 to 405:52
+(1986/2018) (previous version of model).
+New Jersey N.J. STAT. ANN. §§ 17:51B-1 to 17:51B-4
+(1993/2011); N.J. ADMIN. CODE §§11:2-28.1
+to 11:2-28.14 (1993/2018) (previous version
+of model); BULLETIN 2012-04 (2012).
+New Mexico N.M. STAT. ANN. § 59A-7-11 (1985/2014)
+(previous version of model).
+New York N.Y. COMP. CODES R. & REGS. tit. 11,
+§§ 125.1 to 125.8 (1977/2013) (Regulation
+Nos. 17, 20, and 20-A) (previous version of
+model); N.Y. INS. LAW § 1308 (1984/2008);
+CIRCULAR LETTER 1988-5 (1988).
+North Carolina N.C. GEN. STAT. §§ 58-7-21 to 58-7-30
+(1985/2019) (previous version of model).
+North Dakota N.D. CENT. CODE §§ 26.1-31.2-01 to
+26.1-31.2-05 (1991/2015) (previous version of
+model).
+Northern Marianas NO CURRENT ACTIVITY
+Ohio OHIO REV. CODE ANN. §§ 3901.61 to 3901.65
+(1991/2014) (previous version of model).
+ST-785-4 © 2020 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—Fall 2020
+CREDIT FOR REINSURANCE MODEL LAW
+NAIC MEMBER MODEL ADOPTION RELATED STATE ACTIVITY
+Oklahoma OKLA. STAT. tit. 36, §§ 5121 to 5124
+(1992/2016) (previous version of model).
+Oregon OR. REV. STAT. §§ 731.509 to 731.511
+(1994/2019) (previous version of model).
+Pennsylvania S.B. 1195 (2020). 40 PA. CONS. STAT. § 442.1 (1993/2012)
+(previous version of model);
+NOTICE 1-18-2014 (#1) (2014);
+NOTICE 1-25-2014 (#1 & #3) (2014).
+Puerto Rico P.R. RULE 9086 (2012/2018) (previous version
+of model); P.R. LAWS ANN. tit. 26,
+§ 412 (1973/2000).
+Rhode Island R.I. GEN. LAWS §§ 27-1.1-0.5 to 27-1.1-10
+(1991/2017) (previous version of model).
+South Carolina S.B. 881 (2020). S.C. CODE ANN. §§ 38-9-200 to 38-9-220
+(1991/2018) (previous version of model).
+South Dakota S.D. CODIFIED LAWS §§ 58-14-1 to 58-14-33
+(1993/2017) (previous version of model);
+S.D. CODIFIED LAWS § 58-13-4(1966).
+Tennessee TENN. CODE ANN. §§ 56-2-208 to 56-2-209
+(1994/2018) (previous version of model).
+Texas TEX. INS. CODE ANN. §§ 493.101 to 493.107
+(2005/2017).
+Utah H.B. 37 (2020). UTAH CODE ANN. §§ 31A-17-404 to
+31A-17-404.4 (1992/2017) (previous version
+of model); UTAH ADMIN. CODE r. 590-173
+(1997/2017) (previous version of model).
+Vermont ACT No. 103 (2020). VT. STAT. ANN. tit. 8, § 3634a (1992/2013)
+(previous version of model).
+Virgin Islands NO CURRENT ACTIVITY
+Virginia H.B. 154 (2020). VA. CODE ANN. §§ 38.2-1316.1 to
+38.2-1316.8 (1991/2017) (previous version of
+model); ADMIN. LETTER No. 2012-11 (2012).
+© 2020 National Association of Insurance Commissioners ST-785-5NAIC Model Laws, Regulations, Guidelines and Other Resources—Fall 2020
+CREDIT FOR REINSURANCE MODEL LAW
+NAIC MEMBER MODEL ADOPTION RELATED STATE ACTIVITY
+Washington WASH. REV. CODE ANN. §§ 48.12.400 to
+48.12.499 (1947/2015) (previous version of
+model).
+West Virginia H.B. 4146 (2020). W. VA. CODE § 33-4-15a (1992/2018)
+(previous version of model).
+Wisconsin WIS. ADMIN. CODE INS. §§ 52.01 to 52.07
+(1993/2017) (previous version of model).
+Wyoming WYO. STAT. ANN. §§ 26-5-112 to 26-5-117
+(1992/2017) (previous version of model).
+ST-785-6 © 2020 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+In 1982 a new task force was appointed to look at reinsurance issues. 1983 Proc. I 13. In the course of several insolvencies,
+the regulators of one state learned a great deal about reinsurance activities which may be highly questionable or fraudulent.
+They prepared a report with proposals for dealing with insurance and reinsurance fraud. 1983 Proc. I 836-837.
+The proposals included development of a model law on reinsurance. 1983 Proc. I 837, 1983 Proc. II 845.
+A draft of the model was published in 1983. It bore little resemblance to the version adopted six months later. Attendees at
+the December 1983 meeting were urged to provide comments on the model. 1984 Proc. I 743-745.
+A group of regulators met in early 1994 and agreed that a number of questions pertaining to the Credit for Reinsurance Model
+Law had not yet been addressed or fully resolved. 1994 Proc. 1st Quarter 636.
+A suggestion was made to include provisions from an earlier NAIC proposal for a federal non-U.S. insurer act in to the Credit
+for Reinsurance Model Law. The federal proposal provided that no credit for reinsurance would be allowed unless the
+reinsurer was reviewed by the NAIC, even though the ceding company held collateral. The working group agreed to
+recommend that provisions of the federal bill not be included in the model act. 1994 Proc. 4th Quarter 941.
+After the model revisions had been adopted by the Executive Committee, a commissioner suggested that the drafting could be
+improved. The model was held at the Plenary until questions related to form could be resolved. 1996 Proc. 2nd Quarter 9.
+Technical amendments were completed before the Fall National Meeting and the model was adopted by the Plenary. 1996
+Proc. 2nd Quarter 12.
+Section 1. Purpose
+This section was added to the model during the 1995 and 1996 drafting of amendments. This section was proposed to give
+explicit expression to the legislative intent of the law with respect to security established to secure the obligations of alien
+insurers. The author said the proposed language would permit the U.S. regulator to defer to an alien liquidator in the
+disposition of trust assets of an insolvent alien reinsurer if that was the regulator’s preference. She said the regulator’s
+position would be stronger if the statute included the language, but there could be no assurance that the proposed language
+would be sufficient to preserve the U.S. regulator’s access to trust assets. Assurance would only come with amendment to
+Section 304 of the federal Bankruptcy Code to give the U.S. regulator priority in exercising supervisory authority over the
+trust over the alien liquidator seeking to marshal all assets of the insolvent insurer. 1996 Proc. 1st Quarter 823.
+The new Section 1 was based on New York law and was intended to clarify that the trust funds required by the law serve as
+security for insureds, claimants, ceding insurers, assuming insurers and the public. Additionally, the amendment specifies that
+the U.S. regulator will control distribution of the funds. 1996 Proc. 1st Quarter 821.
+After the model had been adopted by the drafters and forwarded to the Executive Committee for consideration, an interested
+party suggested that the new Section 1 might not be entirely appropriate for the purpose intended. She said the original
+objective had been to introduce new language to clarify the legislative intent underlying the credit for reinsurance statute as
+respects the collateral required to secure the obligations of alien reinsurers operating in the United States on the basis of
+multiple beneficiary trust funds, as provided in Section 2D of the model law. She indicated that at a recent hearing objections
+had been raised to the use of “inflammatory references.” The working group decided to eliminate the third sentence which
+read: “It is intended that U.S. claimants should not be required to resort to the often insuperable obstacle of resorting to
+distant forums for the purpose of asserting legal rights or claims on contracts issued to U.S. residents and subject to U.S.
+laws.” 1996 Proc. 2nd Quarter 864.
+© 2012 National Association of Insurance Commissioners PC-785-1NAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 2. Credit Allowed a Domestic Ceding Insurer
+A principal regulatory tool applicable to reinsurance, particularly reinsurance ceded to unauthorized insurers, is the
+recognition on a ceding company’s financial statement of credit for unearned premium and loss reserves ceded to an assuming
+insurer. Through a questionnaire sent to all states, the advisory committee concluded that there was little uniformity among
+the states. Statutory standards for credit for reinsurance were generally inadequate and a uniform law was needed to upgrade
+those standards. 1984 Proc. II 843.
+In the original model, credit was allowed in three situations: (1) where the assuming insurer is licensed in the state, or (2)
+satisfies certain financial standards, or (3) maintains an adequate trusteed surplus in the United States. In the event one of
+these criteria is not satisfied, the ceding insurer may be allowed to reduce its liability to the extent of certain security.
+Cessions of risks located in another jurisdiction and mandated by the law of that jurisdiction are excepted from the
+requirements. 1984 Proc. II 843.
+In September of 1989 a completely revised model with a much expanded Section 2 was adopted. 1990 Proc. IB 857-861.
+After adoption certain technical/structural errors were discovered. These corrections were made at the December 1989
+meeting. 1990 Proc. IB 872.
+A. A paper written to identify regulatory weaknesses reported that every state permits its domestic insurers to take
+annual statement credit for reinsurance cessions made to admitted reinsurers. However, state laws appear to be quite diverse
+in defining the term. 1983 Proc. II 842.
+The model language originally adopted allowed credit where the assuming insurer was licensed to transact insurance in either
+the state adopting the law or one which employs standards “substantially similar” regarding credit for reinsurance. The
+section stated that “substantially similar” meant the insurer conformed to the same standards of solvency as required of an
+insurer licensed in the state. Just before the model was adopted, the task force voted to adopt a drafting note stating that the
+same standards of solvency meant, at a minimum, the capital and surplus required of a domestic insurer. 1984 Proc. II 837-
+838.
+The original model allowed credit for reinsurance if the assuming insurer was licensed in the state, or if the insurer was
+licensed in another state whose credit requirements were substantially equivalent to those in the state granting credit and
+where the assuming insurer meet the standards of solvency in the granting state. In most cases, satisfaction of the minimum
+capital and surplus levels sufficed. A number of insurers commented that this requirement imposed an onerous regulatory
+burden and gave significant discretion to the commissioner, thus creating the potential for arbitrary decisions. 1984 Proc. II
+843.
+When considering amendments to the model the drafters wanted to eliminate the vague “standards of solvency” but felt it was
+not feasible to enumerate all the standards for solvency that would be required if the assuming insurer were applying for a
+license in the enacting state. At the same time, they felt it would be a mistake to delete all references to solvency. 1989 Proc.
+I 949.
+At one point in 1995 during discussion of model act revisions, a provision was inserted in Section 2A that would have
+prevented a company from taking credit for the reinsurance cession if the reinsuring company was not licensed to write a
+particular line of business in the state. That was changed to permit the credit if the reinsurer was authorized in its state of
+domicile to write or assume business of the type ceded. 1996 Proc. 1st Quarter 844.
+B. When originally adopted the model provided that credit would be allowed if the assuming reinsurer was “accredited”
+without defining that term. 1984 Proc. II 838. In the view of the advisory committee, this caused confusion. Credit could be
+allowed even though the reinsurer provided no information about its financial condition, did not submit to the jurisdiction,
+and provided no security in the form of letters of credit, funds withheld, or trusteed funds. The advisory group suggested a
+definition of accredited reinsurer which was similar to that adopted a year later. 1988 Proc. II 808, 810.
+PC-785-2 © 2012 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 2B (cont.)
+The purpose of the suggested definition of accredited reinsurer was to assure that the enacting state had current information
+about the reinsurer in annual statement format, that the enacting state had jurisdiction over the reinsurer, and that the enacting
+state could examine the reinsurer. An assuming reinsurer meeting all the criteria of the definition would be accredited and no
+affirmative action on the part of the commissioner of the enacting state would be required. 1988 Proc. II 808.
+One insurer responded to a draft which defined the accredited reinsurer as one maintaining surplus as regards policyholders of
+at least $20,000,000. The comments suggested that small life insurers would be seriously affected by the proposal. 1989
+Proc. I 940.
+The drafters of amendments recommended deleting the vague “standards of solvency” of the earlier model and proposed
+substituting a minimum standard of $20,000,000. The figure was chosen to conform with the provision for trusteed surplus in
+Subsection D. 1989 Proc. I 949.
+At a working group meeting in the summer of 1989, the drafters decided to add the two alternative provisions under B(4).
+1989 Proc. II 727. The amendment allowed companies with less than $20,000,000 to apply for accreditation but did not
+allow these companies to use the deemer provision found in B(4)(a). 1989 Proc. II 728.
+The working group considered providing an exception for members of a pooling arrangement similar to that proposed for
+Subsection C. The group decided no change was required. 1989 Proc. II 727. An industry association presented a statement
+detailing the reasons they thought the action was appropriate. 1989 Proc. II 733-734.
+C. The original act provided that credit should be allowed where the reinsurer was licensed in at least one state
+employing standards substantially similar to those in the model. Model law amendments first suggested in 1988 provided
+credit where the assuming reinsurer was domiciled in a state employing substantially similar standards. 1988 Proc. II 808.
+Concerns were expressed about the interpretation of the words “substantially similar.” The advisory committee suggested this
+could best be handled through the addition of a drafting note. 1989 Proc. I 948.
+The model is a minimum standards bill. It is contemplated that a number of states will have standards which exceed those of
+the state enacting the model. The drafters expected that the NAIC would maintain a list or digest of states which have enacted
+the model. The drafting note permits the commissioner to rely on such a digest or to make an independent determination.
+1989 Proc. I 948.
+When considering possible model amendments in 1994, the chair of the working group asked for regulators’ opinions
+regarding a modification to Subsection C to include a requirement that the reinsurer be domiciled in a state accredited by the
+NAIC. An interested party said such a provision could be readily incorporated into that subsection by replacing the words
+“…which employs standards regarding credit for reinsurance substantially similar to those applicable under this statute…”
+with the words “…which has been accredited by the NAIC…”. 1994 Proc. 1st Quarter 637.
+Recommendations from technical resource advisors spoke against adding a tie to the accreditation standards. A voluntary
+program on the part of the NAIC (a voluntary association of insurance regulators), the program could be substantially revised
+or canceled. In addition, they argued, tying the standard to the NAIC accredited status of the reinsurer’s state of domicile
+could result in denial of credit even where the lack of NAIC accredited status was unrelated to that state’s credit for
+reinsurance standards. The “substantially similar” standard rests on an objective determination of the law of the reinsurer’s
+state of domicile. 1995 Proc. 1st Quarter 752.
+© 2012 National Association of Insurance Commissioners PC-785-3NAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 2 (cont.)
+D. The model law adopted granted credit where the assuming insurer maintained a trusteed account in the United States
+which included the insurer’s liabilities and a trusteed surplus. The committee considered capital and surplus requirements as
+a threshold for the trusteed surplus but concluded that, in view of current industry practices and conditions, higher standards
+were mandated. Some insurers commented that the amounts were so high that many alien reinsurers could not compete in the
+U.S. market. The drafters concluded that the $20,000,000 amount was necessary to maintain the level of security provided by
+the other provisions of the law. 1984 Proc. II 844.
+Originally the model required the trust fund be maintained in a U.S. bank or trust company. This was changed to “qualified
+financial institution” in 1987. 1987 Proc. II 444.
+The drafters considered changes to this section to deal with “joint and several” characteristics of the trust, but decided to do
+additional research before making any changes to the model. 1989 Proc. II 727-728.
+Just before adoption of the amended model in September 1989, the working group and then the task force considered adding a
+second paragraph under Subsection D to include incorporated underwriters. Considerable discussion on this proposal
+included the opinion that the language was unclear, and that addition of this paragraph would give special advantage to alien
+insurers. Some felt the proposal should be voted down because it was a last minute proposal. The proposal was narrowly
+approved. 1990 Proc. IB 891, 895.
+The parent committee again considered the appropriateness of the addition of Subsection D(2). The advisory committee
+objected to giving alien insurers a right that United States companies did not enjoy abroad, and opined that the international
+aspects of this decision had not been considered. The committee chair replied that, in fact, the international aspects had been
+considered and noted that an open market was, in the long term, in the best interest of the United States market. 1990 Proc.
+IB 851.
+Before adoption the committee struck a phrase in Subsection D(2), “or some other national regulation” and replaced it with a
+phrase requiring the incorporated insurers to submit to the state’s authority to examine its books and records. 1990 Proc. IB
+851.
+The NAIC president clarified before adoption at the special plenary session that the incorporated insurers would submit to the
+authority of the states and bear the cost of any examination. 1990 Proc. IA 12.
+Some of the commissioners were concerned about the authority granted in Subsection D(2). They clarified that this applies
+only to reinsurance transactions, not to surplus lines. 1990 Proc. IA 13.
+In June of 1990 the working group was again asked to reconsider Section 2D(2) dealing with a group of incorporated insurers.
+It was the opinion of the working group that the provision in question would allow more security for the reinsurance
+recoverable than the alternatives. The group voted to retain the provision as adopted. 1990 Proc. II 776.
+The working group did adopt clarifying language to Subsection D(2) specifying the trust should be in an amount equal to the
+liabilities attributable to United States business. The language of the earlier model also did not make clear that credit is to be
+accorded only to reinsurance contracts issued in the group name. 1990 Proc. II 776-777.
+Another amendment removed language specifically referencing companies under the jurisdiction of the Department of Trade
+and Industry of the United Kingdom. The working group considered this language too restrictive. It was replaced with
+language from a New York regulation. 1990 Proc. II 776.
+PC-785-4 © 2012 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 2D (cont.)
+In September 1993 a working group agreed upon language to amend Section 2D(1) of the model law to permit companies to
+continue to take statutory credit for reinsurance ceded to Lloyd’s after the introduction of corporate capital. The chair
+acknowledged that there were other areas of the model law that would have to be reexamined to determine whether revisions
+might be necessary, but priority was given to the language on corporate Lloyd’s. 1993 Proc. 4th Quarter 881.
+One meeting attendee said it was important to be certain that language drafted was not worded so broadly as to permit any
+group which included individuals and had established a trust fund in the amount of $100 million to qualify as an accredited
+reinsurer and thereby circumvent other applicable requirements, such as those for risk-based capital. 1993 Proc. 4th Quarter
+881-882.
+One of the drafting suggestions narrowed the scope by specifically referring to Lloyd’s. A comment was made that explicit
+reference to “underwriters at Lloyd’s” could present a problem for states that had statutory prohibitions against special
+purpose legislation. 1993 Proc. 4th Quarter 881-882.
+The working group members agreed that the suggested amendatory language would satisfactorily address the concerns
+expressed. The chair noted several unresolved questions remained and that further revisions to the model law would be
+considered. 1993 Proc. 4th Quarter 883.
+The language of Subsection D(2) was extensively revised in 1996 and some replaced with new language found in Paragraphs
+(2) and (3). 1996 Proc. 2nd Quarter 13-14.
+A group considering amendments to the Credit for Reinsurance Model Law received a letter outlining reasons why granting
+credit for reinsurance is sound financial regulation, pro-competitive and proper. The letter also addressed the scope of the
+trust fund to assist the regulators as they considered amending the trust requirements. 1994 Proc. 2nd Quarter 871-872.
+Technical resource advisors urged the working group to consider adding provisions that would apply to a single alien
+reinsurer seeking to qualify under Section 2D(1) of the model law. An extended discussion followed, during which the chair
+observed that under the arrangement proposed, the credit risk of reinsurance recoverables would effectively be borne by the
+trust. An interested party responded with the viewpoint that the proposal would enhance the overall quality of security,
+whileworking to the advantage of U.S. reinsurers, since it could be expected that a substantial volume of retrocessional
+business would flow into the U.S. marketplace as a result of the incentives for trusteed alien reinsurers to buy retro protections
+from licensed reinsurers. He suggested it would be good regulatory policy to encourage any arrangement that provided such
+advantages. The chair countered that good regulatory policy should require that the obligations of alien reinsurers be
+collateralized on a gross basis, noting that it was not realistic to expect regulators to evaluate every alien reinsurer’s
+retrocessional arrangements. Another regulator observed it would be difficult to make such evaluations because of the
+potential depletion of recoverable balances as a result of allowable offsets. The interested party acknowledged this was a
+legitimate concern, but said it could be possible to devise a way to address that problem. 1994 Proc. 2nd Quarter 868-869.
+An interested party commented that her association’s members thought reinsurance capacity might be restricted if alien
+reinsurers were subjected to unduly burdensome collateralization requirements. The member companies were less concerned
+over recoverability than they were over the potential for capacity restriction and increases in the cost of reinsurance and said
+that they apparently believed that they were capable of determining, either on their own or with the advice of their reinsurance
+intermediaries, the creditworthiness of alien insurers. 1994 Proc. 4th Quarter 959.
+© 2012 National Association of Insurance Commissioners PC-785-5NAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 2D (cont.)
+The chair asked if eliminating offset provision from retrocessional covers was a viable method of alleviating the concerns of
+regulators regarding the potentially negative impact of offset provisions on their ability to recover amounts for which alien
+reinsurers had taken credit in their U.S. trust funds. One company representative said in his opinion very few reinsurers could
+be expected to willingly forego the protection afforded by offset provisions, and that the elimination of offset clauses would
+inevitably lead to a general increase in the cost of reinsurance to reflect the attendant increase in the claims burden that
+reinsurers would have to bear in the absence of traditional offset provisions. He observed that the ultimate effect of any loss
+of offset rights would be to weaken reinsurers’ financial conditions generally, and said that to do so would be in the interest of
+neither the buyers of reinsurance protection nor of the regulator. 1994 Proc. 4th Quarter 959.
+An interested party opined that the current model law requirement that alien reinsurers fund an amount equal to U.S. liabilities
+plus $20 million did not leave a very substantial margin for unrecoverability of obligations of the alien reinsurer’s
+retrocessionaires. He observed that the risk-based capital requirements made it impossible for any state to approve a new
+reinsurer having only $20 million in policyholder surplus. 1994 Proc. 4th Quarter 959.
+An early 1995 draft of the model act contained a new Subsection E to address reinsurance ceded to an unauthorized alien
+assuming insurer. A technical resource advisor reported that there was not agreement among the advisors regarding the
+subsection. The majority of advisors recommended that, if the working group wanted to include a provision of this kind, it
+would best be done via a drafting note to the model regulation. 1995 Proc. 1st Quarter 731.
+An extensive discussion followed among the working group members regarding the question of whether the language of the
+state regulation on which Subsection E was based was more or less conservative as respects security required of alien
+reinsurers than the provisions currently contained in Section 2 and 3 of the model law. There were divergent opinions among
+regulators as to whether this provision had the effect of strengthening or weakening the alien reinsurer security provisions
+currently incorporated in the model law. One interested party suggested the availability of the proposed Subsection E would
+effectively reduce the overall level of security for unauthorized reinsurance recoverables. 1995 Proc. 1st Quarter 732.
+A regulator said in his opinion the proposed Subsection E represented a clear weakening of the traditional requirements
+regarding collateralization of unauthorized reinsurance recoverables, since the effect of the provision would be to substitute
+collateral equal to only 15% of the largest segment of recoverable balances, the resources for Incurred But Not Reported
+(IBNR) losses, for the 100% requirement contained in the present model. He said he would be opposed to inclusion of such a
+provision in any form. 1995 Proc. 1st Quarter 732.
+The working group agreed not to make substantive changes to Subsection D, but the subsection was rearranged for clarity.
+1995 Proc. 1st Quarter 733-734.
+One regulator suggested a change to the second sentence in Paragraph (1) to add at the beginning of the phrase “To enable the
+commissioner to determine the sufficiency of the trust fund…” and the working group agreed to the change. 1996 Proc. 1st
+Quarter 844.
+It was suggested that the language of Paragraph (3)(i) would effectively permit adequacy of the trust fund established by a
+“group including incorporated and individual unincorporated underwriters” to be determined on a collective basis, which
+meant that one or more individual underwriters or syndicates could have a deficiency in their subaccount balances. If the
+overall fund balance was deemed to be adequate, credit for cessions to the group would be allowed despite the individual
+deficiency. One state had taken the position that each syndicate would have to demonstrate compliance with trust fund
+requirements. The technical resource group believed that the language in its current form would permit any regulator to
+exercise sufficient oversight and control, and cautioned against efforts to introduce expanded requirements that would
+increase the administrative burden on regulators without providing a commensurate increase in the ability to maintain
+oversight and control. 1996 Proc. 1st Quarter 844-845.
+PC-785-6 © 2012 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 2D (cont.)
+E. Subsection E remains substantially unchanged since it was first adopted, except for the references to other
+subsections. 1984 Proc. II 838.
+The drafters recognized a special problem for reinsurers in many non-U.S. jurisdictions and carved out a limited exception to
+the credit requirements. A ceding insurer may take credit where the assuming insurer does not meet the standards of the prior
+subsections with regard to risks located in jurisdictions where the reinsurance is required by that jurisdiction. 1984 Proc. II
+844.
+F. The assuming insurer qualifying for credit must also agree to submit to the jurisdiction of U.S. courts in the event of
+its failure to pay amounts due under contracts, and to designate the commissioner as its attorney for the purpose of serving
+process. A few insurers were concerned that this subsection might alter the terms of an arbitration clause in the reinsurance
+agreement. The drafters added the final sentence to remove the potential for any unintended conflict with arbitration clauses.
+1984 Proc. II 844.
+A correction made in 1985 clarified that the last sentence of the subsection applied both to Paragraphs (1) and (2). 1986
+Proc. I 812.
+The working group considered a proposal that the model bill specify certain provisions which must be included in a
+reinsurance contract. The advisory committee felt it was not feasible to set out all of the minimum standards but the model
+does include certain standards in Section 2F. 1989 Proc. I 949.
+Section 3. Asset or Reduction From Liability for Reinsurance Ceded by a Domestic Insurer to an Assuming
+Insurer Not Meeting the Requirement of Section 2
+The model adopted allowed a reduction from liability for cessions to assuming insurers not satisfying the requirements of
+Section 2, but only to the extent of security provided by, or on behalf of, the insurer taking credit. The model identified the
+forms of security accepted in most states. The model as originally adopted only accepted letters of credit issued or confirmed
+by a bank that is a member of the federal reserve system. 1984 Proc. II 844.
+An amendment adopted in September 1989 added the words “by a domestic insurer” to the title and first sentence. 1990
+Proc. IB 859.
+C. A representative of a British banking firm appeared before the task force to protest the use of the standards for letters
+of credit which excluded U.S. branches and agencies of all foreign banks from eligibility as issuers of letters of credit. 1985
+Proc. II 719-720.
+In 1987 this section was changed to allow letters of credit issued by a “qualified U.S. financial institution” as that term was
+defined in a new Section 4. 1987 Proc. II 446.
+The United States Treasury Department wrote a letter expressing support for the draft. It moves in the direction of applying
+equality of competitive opportunity with U.S. banks, to U.S. branches and agencies of foreign banking institutions. The
+Treasury Department heard complaints from individual foreign banks concerning their inability to participate in the market in
+the United States. Under the International Banking Act, foreign banks are accorded equality of competitive opportunity with
+domestic institutions in similar circumstances, even if some specific regulations or requirements applied to foreign banks
+differ from those affecting domestic banks. The measures contemplated by the NAIC were in keeping with federal policy.
+1987 Proc. II 449-450.
+© 2012 National Association of Insurance Commissioners PC-785-7NAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 3C (cont.)
+Section 3C contained a reference to the definition for letters of credit; however, the version adopted in 1990 contained a
+reference to the definition in Section 4 which was misplaced. A correction was made in June 1990. 1990 Proc. II 776.
+Section [ ] Credit Allowed a Foreign Ceding Insurer [Optional]
+As early as August 1993, the chair of the working group considering credit for reinsurance issues received a suggestion to add
+a new section to the model act that would allow credit to a foreign ceding insurer to the extent credit had been allowed by the
+ceding insurer’s state of domicile. 1994 Proc. 1st Quarter 639.
+In early 1994, the Credit for Reinsurance Working Group began discussing further amendments to the model act. A group of
+technical advisors wrote a letter urging the viewpoint that credit for reinsurance should be determined by the state of domicile
+of the ceding insurer and that, if that state is accredited by the NAIC, other states should recognize the credit allowed by the
+state of domicile. The group viewed this as a very important principle. The writers said it seemed to them unnecessary and
+undesirable to have a separate and inconsistent determination of statutory surplus made by each state in which the ceding
+insurer is licensed. 1994 Proc. 1st Quarter 640.
+One regulator restated the position taken by his state on the question of application of its law to licensed foreign ceding
+companies as well as domestic companies. He said his state supported the idea of uniformity of regulation from one state to
+another insofar as possible, but did not want to relinquish the right to take regulatory action against a foreign company whose
+reinsurance arrangements were deemed to be unsatisfactory. Another regulator pointed out that the commissioner was
+permitted the discretion to waive the $20 million surplus stipulated in the model. 1994 Proc. 1st Quarter 637.
+A regulator suggested that language be added to the proposed section setting forth criteria by which a state might decline to
+allow credit. 1994 Proc. 1st Quarter 637.
+A later meeting was held to consider further the concept of extraterritorial application of the credit for reinsurance law.
+Language was drafted that would provide a procedure to be followed by those states that chose to apply their credit for
+reinsurance law to licensed foreign companies as well as domestic companies. Technical resource advisors expressed concern
+with the basic premise. They expressed the strong belief that credit for reinsurance is a fundamental element in the
+determination of the financial condition of the ceding insurer, and should be determined by the insurer’s state of domicile.
+They urged regulators not to change the feature of the current model that addresses credits allowed domestic insurers and does
+not address foreign insurers. 1994 Proc. 2nd Quarter 877-879.
+A draft of the Credit for Reinsurance Model Law was considered at a September 1994 meeting of regulators. A drafting note
+was suggested for the new section on regulation of reinsurance of foreign carriers by non-domiciliary jurisdictions, and one
+regulator wrote a letter of objection to the drafting note. The regulator stated that the drafting note contained language that
+implied a consensus of opinion which, in his view, did not exist among regulators as respects extraterritorial application of the
+act. At his suggestion these words were deleted at the end of the first sentence: “…on the premise that regulation of the
+financial condition of foreign insurers, including credit for reinsurance, is best left to their states of domicile.” The letter
+writer said the premise was presumptuous in its far-reaching implications, i.e., that it is “best” for the individual states to
+relinquish, or to abdicate, their regulatory responsibilities regarding the financial condition of foreign insurers doing business
+within their borders. 1994 Proc. 3rd Quarter 783-784.
+PC-785-8 © 2012 National Association of Insurance CommissionersNAIC Model Laws, Regulations, Guidelines and Other Resources—January 2012
+CREDIT FOR REINSURANCE MODEL LAW
+Proceeding Citations
+Cited to the Proceedings of the NAIC
+Section 4. Qualified U.S. Financial Institutions
+This section was added to the model in 1987. Changes to the types of financial institutions that could maintain trust funds or
+issue letters of credit resulted in the need for this definition. 1987 Proc. II 447.
+A. The Reinsurance and Anti-Fraud Task Force created new language defining credit standards for domestic and
+foreign banks which issue letters of credit supporting reinsurance transactions. The language also became part of the
+procedures of the NAIC Securities Valuation Office. The “member of the federal reserve” requirement embodied in the
+original model was eliminated to allow foreign banks which cannot be members of the federal reserve to write letters of
+credit. The new SVO facility will provide a list of qualified banks for use by regulators in approving letters of credit
+transactions involving reinsurance credit. 1987 Proc. II 855-856.
+Section 5. Rules and Regulations
+The authority to adopt regulations was part of the original model, although the NAIC did not develop a regulation for some
+time. 1984 Proc. II 839.
+When drafting amendments in 1989, the working group considered a proposal to require a state to adopt rules and regulations
+versus the optional authority in the model. The group agreed no change was required. 1989 Proc. II 727.
+Section 6. Reinsurance Agreements Affected
+This section was added to the draft of amendments being considered at the December 1988 meeting. It was suggested by the
+advisory committee that the model should identify those reinsurance contracts to which the statutory credit provisions would
+be applicable. 1989 Proc. I 949.
+At the working group meeting the following summer, it was decided to add a drafting note to the working draft. 1989 Proc.
+II 727.
+________________________________
+Chronological Summary of Actions
+June 1984: Model adopted.
+December 1985: Technical correction to Section 2F.
+June 1987: Revised requirement for who may issue letters of credit; added Section 4 defining qualified financial institutions.
+September 1989: Revised Section 2 substantially. Revised requirements for letters of credit; added Section 5.
+December 1989: Technical corrections to Section 2 adopted.
+June 1990: Clarified Section 2D and made a technical amendment to Section 2C.
+March 1994: Adopted an amendment to provide for credit for incorporated underwriters.
+September 1996: Model extensively revised; new Section 1 added.
+© 2012 National Association of Insurance Commissioners PC-785-9
