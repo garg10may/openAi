@@ -1,13 +1,6 @@
-import openai
-import os
-import tiktoken
 import re
-from dotenv import find_dotenv, load_dotenv
 from pdfParser import extract_text_from_pdf
 from cache import conn
-
-_ = load_dotenv(find_dotenv())  # read local .env file
-openai.api_key = os.getenv("key")
 
 MAX_TOKENS = 3500 #max tokens per api call, change this for different models some have lower or higher limit
 
