@@ -13,7 +13,9 @@ from langchain.embeddings import HuggingFaceEmbeddings, HuggingFaceInstructEmbed
 import openai
 import os
 from dotenv import find_dotenv, load_dotenv
-
+import pickle
+import faiss
+from langchain.vectorstores import FAISS
 
 def load_key():
     _ = load_dotenv(find_dotenv())
@@ -24,44 +26,42 @@ def load_key():
     huggingface_key = os.getenv("huggingface_key")
     os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_key
 
-
 def split_documents():
-    loader = DirectoryLoader("./", glob="*.pdf", loader_cls=PyPDFLoader)
+    loader = DirectoryLoader("./", glob="*.pdf", loader_cls=PyPDFLoader) #without PyPDFLoader fails miserable where there are tables or formatted text, not just simple paragraph
     documents = loader.load()
     # print(documents)
+
     text_splitter = CharacterTextSplitter(
         chunk_size=1000, chunk_overlap=100
     )  # default chunk_size is 1000, and chunk_overlap is 200
+
+    text_splitter = RecursiveCharacterTextSplitter() #more or less same performance as characterTextSplitter, need to check on more refined questions
+
     texts = text_splitter.split_documents(documents)
     # text_splitter = NLTKTextSplitter()
     # texts = text_splitter.split_text(documents)
     return texts
-
 
 def embeddings_model(type):
     if type == "openai":
         embeddings_model = OpenAIEmbeddings()
 
     if type == "huggingface":
-        model_name = "sentence-transformers/all-mpnet-base-v2"
-        embeddings_model = HuggingFaceEmbeddings(model_name=model_name)
+        model_name = "hkunlp/instructor-xl"
+        # model_kwargs = {'device': 'cuda'}
+        embeddings_model = HuggingFaceInstructEmbeddings(model_name=model_name)
 
     return embeddings_model
 
-
 def generate_vectors(embeddings_model, texts, use_pregenerated_embeddings=False):
     persist_dir = "MyTextEmbedding"
-    if use_pregenerated_embeddings:  # generate new embeddings
-        vectordb = Chroma(
-            persist_directory=persist_dir, embedding_function=embeddings_model
-        )
-    else:
-        vectordb = Chroma.from_documents(
-            texts, embeddings_model, persist_directory=persist_dir
-        )
+    if use_pregenerated_embeddings:  
+        vectordb = Chroma(persist_directory=persist_dir, embedding_function=embeddings_model)
+    else: #generate new and also save them if required for future
+        vectordb = Chroma.from_documents(texts, embeddings_model, persist_directory=persist_dir)
+        # vectordb = FAISS.from_documents(texts, embeddings_model) #FAISS is just a library
         vectordb.persist()
     return vectordb
-
 
 def query_vectors(vectordb, query):
     chain = RetrievalQA.from_chain_type(
@@ -70,7 +70,6 @@ def query_vectors(vectordb, query):
     answer = chain.run(query)
     return answer
 
-
 def query_vectors_alternate(vectordb, query):
     # VectorDBQA is going to be deprecated soon
     chain = VectorDBQA.from_chain_type(
@@ -78,7 +77,6 @@ def query_vectors_alternate(vectordb, query):
     )
     answer = chain.run(query)
     return answer
-
 
 def filter_relevant_vectors(embedding_model, vectordb, query):
     filtered_docs = vectordb.similarity_search(query)
@@ -92,18 +90,23 @@ def filter_relevant_vectors(embedding_model, vectordb, query):
 if __name__ == "__main__":
     load_key()
     texts = split_documents()
-    embeddings_model = embeddings_model("openai")
-    vectordb = generate_vectors(embeddings_model, texts)
-    query = (
-        "Give me the short summary of each section. Add line breaks after each summary"
-    )
+
+    # embeddings_model = embeddings_model('openai')
+    embeddings_model = embeddings_model('huggingface')
+    vectordb = generate_vectors(embeddings_model, texts, use_pregenerated_embeddings=True)
+
+    # vectordb = generate_vectors_huggingface(embeddings_model, texts)
+
+
+    query = "Give me the short summary of each section. Add line breaks after each summary"
     query = "Give me summary of what this document is all about? How many different sections are there? give me brief summary of each of the section explaining what it highlights the most?"
     # query = "Which NAIC member states have still not implemented the model and which has implemented the same or there are some states that have done it partially?"
     # query = "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6"  # fails
-    # query = "Please give me table of contents?"  # fails
+    # query = "Please give me table of contents?"  # fails #says I don't know
     # query = 'Exlain in simple words what is this PDF about?'
     # to save costs, otherwise whole vectordb can also be submitted
     # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query)
+
     answer1 = query_vectors(vectordb, query)
     print(answer1)
 
