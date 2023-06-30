@@ -99,11 +99,11 @@ if __name__ == "__main__":
 
 
     query = "Give me the short summary of each section. Add line breaks after each summary"
-    query = "Give me summary of what this document is all about? How many different sections are there? give me brief summary of each of the section explaining what it highlights the most?"
-    # query = "Which NAIC member states have still not implemented the model and which has implemented the same or there are some states that have done it partially?"
+    # query = "Give me summary of what this document is all about? How many different sections are there? give me brief summary of each of the section explaining what it highlights the most?"
+    # query = "Which NAIC member states have still not implemented the model and which has implemented the same or there are some states that have done it partially?" #hugging has been best here, but none have been fully correct
     # query = "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6"  # fails
-    # query = "Please give me table of contents?"  # fails #says I don't know
-    # query = 'Exlain in simple words what is this PDF about?'
+    # query = "Please give me the table of contents for this pdf?"  # fails #says I don't know, till now nobody has answered it
+    query = 'Generate a summary of about 1000 words what this pdf is about?'
     # to save costs, otherwise whole vectordb can also be submitted
     # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query)
 
