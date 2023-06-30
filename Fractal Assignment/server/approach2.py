@@ -16,6 +16,9 @@ from dotenv import find_dotenv, load_dotenv
 import pickle
 import faiss
 from langchain.vectorstores import FAISS
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import ConversationalRetrievalChain
+from langchain.chat_models import ChatOpenAI
 
 def load_key():
     _ = load_dotenv(find_dotenv())
@@ -83,6 +86,11 @@ def filter_relevant_vectors(embedding_model, vectordb, query):
     vectordb = Chroma.from_documents(documents=filtered_docs, embedding=embedding_model)
     return vectordb
 
+def get_conversation_chain(vectordb):
+    llm = ChatOpenAI()
+    memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
+    conversation_chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=vectordb.as_retriever, memory=memory)
+    return conversation_chain
 
 # result = chain({'query': query})
 # print(result)
