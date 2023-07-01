@@ -27,6 +27,8 @@ from transformers import (
 )
 import transformers
 from langchain.llms import HuggingFacePipeline
+from langchain.document_loaders.parsers import GrobidParser
+from langchain.document_loaders.generic import GenericLoader
 
 
 def load_key():
@@ -40,11 +42,19 @@ def load_key():
 
 
 def split_documents():
-    loader = DirectoryLoader(
-        "./", glob="*.pdf", loader_cls=PyPDFLoader
-    )  # without PyPDFLoader fails miserable where there are tables or formatted text, not just simple paragraph
+
+    # loader = DirectoryLoader(
+        # "./", glob="*.pdf", loader_cls=PyPDFLoader
+    # )  # better than textloader, without PyPDFLoader fails miserable where there are tables or formatted text, not just simple paragraph, but still not the best
+    # documents = loader.load()
+
+    loader = GenericLoader.from_filesystem(
+        "./", glob="*.pdf", parser=GrobidParser(segment_sentences=False)
+    )
     documents = loader.load()
-    # print(documents)
+    # with open('grobid_extracted_text.txt', 'w') as f:
+        # f.write(documents)
+    print(documents)
 
     text_splitter = CharacterTextSplitter(
         chunk_size=1000, chunk_overlap=100
@@ -61,16 +71,17 @@ def split_documents():
 
 
 def get_llm(type):
+
     if type == "openai":
         llm = OpenAI()  # required API and dough
-        return llm
+
     if type == "huggingface":
         model_kwargs = {"temperature": 0, "max_length": 64}
         model_id = "google/flan-t5-xl"  # times out with free api
         model_id = "google/flan-t5-base"  # not working, gives poor answer
         # model_id = 'google/flan-t5-small'
         llm = HuggingFaceHub(repo_id=model_id)
-        return llm
+
     if type == "local":
         model_id = "google/flan-t5-xl"
         tokenizer = AutoTokenizer.from_pretrained(model_id)
@@ -80,7 +91,8 @@ def get_llm(type):
             "text2text-generation", model=model, tokenizer=tokenizer
         )
         llm = HuggingFacePipeline(pipeline=pipeline)
-        return llm
+    
+    return llm
 
 
 def embeddings_model(type):
@@ -158,17 +170,17 @@ if __name__ == "__main__":
     query = (
         "Give me the short summary of each section. Add line breaks after each summary"
     )
-    # query = "Give me summary of what this document is all about? How many different sections are there? give me brief summary of each of the section explaining what it highlights the most?"
+    query = "Give me summary of what this document is all about? How many different sections are there? give me brief summary of each of the section explaining what it highlights the most?"
     # query = "Which NAIC member states have still not implemented the model and which has implemented the same or there are some states that have done it partially?" #hugging has been best here, but none have been fully correct
     # query = "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6"  # fails
     # query = "Please give me the table of contents for this pdf?"  # fails #says I don't know, till now nobody has answered it
-    query = "Generate a summary of about 1000 words what this pdf is about?"
-    query = "Do not give short answers. "
-    query = query + "What is the purpose of the act?"
+    # query = "Generate a summary of about 1000 words what this pdf is about?"
+    # query = "Do not give short answers. "
+    # query = query + "What is the purpose of the act?"
     # to save costs, otherwise whole vectordb can also be submitted
     # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query)
 
-    llm = get_llm("local")
+    llm = get_llm("openai")
     answer = query_vectors(vectordb, query, llm)
     print(answer)
 
