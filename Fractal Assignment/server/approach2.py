@@ -1,3 +1,4 @@
+from datetime import datetime
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import (
@@ -41,27 +42,25 @@ def load_key():
     os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_key
 
 
-def split_documents():
+def split_documents(loader="pypdf"):
+    if loader == "pypdf":
+        loader = DirectoryLoader(
+            "./", glob="*.pdf", loader_cls=PyPDFLoader
+        )  # better than textloader, without PyPDFLoader fails miserable where there are tables or formatted text, not just simple paragraph, but still not the best
+        documents = loader.load()
 
-    # loader = DirectoryLoader(
-        # "./", glob="*.pdf", loader_cls=PyPDFLoader
-    # )  # better than textloader, without PyPDFLoader fails miserable where there are tables or formatted text, not just simple paragraph, but still not the best
-    # documents = loader.load()
+    if loader == "grobid":
+        loader = GenericLoader.from_filesystem(
+            "./", glob="*.pdf", parser=GrobidParser(segment_sentences=False)
+        )
+        documents = loader.load()
 
-    loader = GenericLoader.from_filesystem(
-        "./", glob="*.pdf", parser=GrobidParser(segment_sentences=False)
-    )
-    documents = loader.load()
-    # with open('grobid_extracted_text.txt', 'w') as f:
-        # f.write(documents)
-    print(documents)
-
-    text_splitter = CharacterTextSplitter(
-        chunk_size=1000, chunk_overlap=100
-    )  # default chunk_size is 1000, and chunk_overlap is 200
+    # text_splitter = CharacterTextSplitter(
+        # chunk_size=300, chunk_overlap=20
+    # )  # default chunk_size is 1000, and chunk_overlap is 200
 
     text_splitter = (
-        RecursiveCharacterTextSplitter()
+    RecursiveCharacterTextSplitter()
     )  # more or less same performance as characterTextSplitter, need to check on more refined questions
 
     texts = text_splitter.split_documents(documents)
@@ -70,8 +69,7 @@ def split_documents():
     return texts
 
 
-def get_llm(type):
-
+def get_llm(type="openai"):
     if type == "openai":
         llm = OpenAI()  # required API and dough
 
@@ -91,7 +89,7 @@ def get_llm(type):
             "text2text-generation", model=model, tokenizer=tokenizer
         )
         llm = HuggingFacePipeline(pipeline=pipeline)
-    
+
     return llm
 
 
@@ -121,21 +119,12 @@ def generate_vectors(embeddings_model, texts, use_pregenerated_embeddings=False)
     return vectordb
 
 
-def query_vectors(vectordb, query, llm):
+def generate_answer(vectordb, query, llm):
     chain = RetrievalQA.from_chain_type(
         llm=llm, chain_type="stuff", retriever=vectordb.as_retriever()
     )
     answer = chain.run(query)
     return answer
-
-
-# def query_vectors_alternate(vectordb, query):
-# VectorDBQA is going to be deprecated soon
-# chain = VectorDBQA.from_chain_type(
-# llm=OpenAI(), chain_type="stuff", vectorstore=vectordb
-# )
-# answer = chain.run(query)
-# return answer
 
 
 def filter_relevant_vectors(embedding_model, vectordb, query):
@@ -152,37 +141,39 @@ def get_conversation_chain(vectordb, llm):
     return conversation_chain
 
 
-# result = chain({'query': query})
-# print(result)
+TEST_QUERIES = [
+    "What is the purpose of the act?",
+    "How many different sections are there? Give me brief summary of each of the section.",
+    "Which NAIC member states have still not implemented the model and which has implemented the same?",  # hugging embedding has been best here, but none have been fully correct
+    "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6",  # fails
+    "Please give me the table of contents for this pdf?",  # fails #says I don't know, till now nobody has answered it
+]
+
+
+def test_model(vectordb, llm):
+    for query in TEST_QUERIES:
+        answer = generate_answer(vectordb, query, llm)
+        print(query)
+        print('\n')
+        print(answer)
+        print("-" * 90)
+        # dateString = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        with open('result1.csv', "a") as f:
+            f.write('\n')
+            f.write('Question: ' + query)
+            f.write('\n')
+            f.write('Ans. :' + answer)
+            f.write("-" * 90)
+
+def setup():
+    load_key()
+    texts = split_documents(loader="pypdf")  # default is pypdf
+    # embeddings_model = embeddings_model('openai')
+    model = embeddings_model("huggingface")
+    vectordb = generate_vectors(model, texts, use_pregenerated_embeddings=True)
+    # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query) #to save costs, just submit relevant vector to reduce token
+    llm = get_llm()  # default openai, other: huggingface, local
+    test_model(vectordb, llm)
 
 if __name__ == "__main__":
-    load_key()
-    texts = split_documents()
-
-    # embeddings_model = embeddings_model('openai')
-    embeddings_model = embeddings_model("huggingface")
-    vectordb = generate_vectors(
-        embeddings_model, texts, use_pregenerated_embeddings=True
-    )
-
-    # vectordb = generate_vectors_huggingface(embeddings_model, texts)
-
-    query = (
-        "Give me the short summary of each section. Add line breaks after each summary"
-    )
-    query = "Give me summary of what this document is all about? How many different sections are there? give me brief summary of each of the section explaining what it highlights the most?"
-    # query = "Which NAIC member states have still not implemented the model and which has implemented the same or there are some states that have done it partially?" #hugging has been best here, but none have been fully correct
-    # query = "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6"  # fails
-    # query = "Please give me the table of contents for this pdf?"  # fails #says I don't know, till now nobody has answered it
-    # query = "Generate a summary of about 1000 words what this pdf is about?"
-    # query = "Do not give short answers. "
-    # query = query + "What is the purpose of the act?"
-    # to save costs, otherwise whole vectordb can also be submitted
-    # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query)
-
-    llm = get_llm("openai")
-    answer = query_vectors(vectordb, query, llm)
-    print(answer)
-
-    # answer2 = query_vectors_alternate(vectordb, query) #more of less same type of answer, that is both would hallucinate, or both won't, or both would say don't know. sometimes only difference would be in wordings
-    # print(answer2)
+    setup()
