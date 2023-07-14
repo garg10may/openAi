@@ -15,7 +15,6 @@ import openai
 import os
 from dotenv import find_dotenv, load_dotenv
 import pickle
-import faiss
 from langchain.vectorstores import FAISS
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
@@ -147,6 +146,7 @@ TEST_QUERIES = [
     "Which NAIC member states have still not implemented the model and which has implemented the same?",  # hugging embedding has been best here, but none have been fully correct
     "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6",  # fails
     "Please give me the table of contents for this pdf?",  # fails #says I don't know, till now nobody has answered it
+
 ]
 
 
@@ -173,7 +173,13 @@ def setup():
     vectordb = generate_vectors(model, texts, use_pregenerated_embeddings=True)
     # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query) #to save costs, just submit relevant vector to reduce token
     llm = get_llm()  # default openai, other: huggingface, local
-    test_model(vectordb, llm)
+    # test_model(vectordb, llm)
+    query = 'What is the purpose of the act?'
+    query = 'What is the sentiment of this report, just answer in postiive or negative?'
+    answer = generate_answer(vectordb, query, llm)
+    print(answer)
+
+
 
 if __name__ == "__main__":
     setup()
