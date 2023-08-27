@@ -29,7 +29,12 @@ import transformers
 from langchain.llms import HuggingFacePipeline
 from langchain.document_loaders.parsers import GrobidParser
 from langchain.document_loaders.generic import GenericLoader
-from speech2text import openai_s2t
+from speech2text import (openai_s2t, 
+SpeechRecognition_s2t,
+Wav2Vec2_s2t,
+whisper_s2t
+)
+from utility import convert_text_to_pdf
 
 
 def load_key():
@@ -174,14 +179,17 @@ def test_model(vectordb, llm):
 
 def audio_processing():
     load_key()
-    print(openai_s2t())
+    transcript = openai_s2t()
+    # transcript = SpeechRecognition_s2t(['caffeine.mp3'])
+    # transcript = Wav2Vec2_s2t(['MLKDream.mp3'])
+
 
 def setup():
     load_key()
     texts = split_documents(loader="pypdf")  # default is pypdf
     # embeddings_model = get_embeddings_model('openai')
     embeddings_model = get_embeddings_model("huggingface")
-    vectordb = generate_vectors(embeddings_model, texts, use_pregenerated_embeddings=True)
+    vectordb = generate_vectors(embeddings_model, texts, use_pregenerated_embeddings=False)
     # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query) #to save costs, just submit relevant vector to reduce token
     llm = get_llm()  # default openai, other: huggingface, local
     # test_model(vectordb, llm)
@@ -192,5 +200,5 @@ def setup():
 
 
 if __name__ == "__main__":
-    # setup()
-    audio_processing()
+    setup()
+    # audio_processing()

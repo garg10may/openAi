@@ -16,16 +16,6 @@ def openai_s2t():
   transcript = openai.Audio.transcribe('whisper-1', audio_file, response_format='text')
   return transcript
 
-def load_key():
-    print('loading key')
-    _ = load_dotenv(find_dotenv())
-
-    openai_key = os.getenv("openai_key")
-    os.environ["OPENAI_API_KEY"] = openai_key
-
-    huggingface_key = os.getenv("huggingface_key")
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_key
-
 audio_files = ["MLKDream.flac"]
 
 def SpeechRecognition_s2t(audio_files):
