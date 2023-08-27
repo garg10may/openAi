@@ -35,6 +35,7 @@ Wav2Vec2_s2t,
 whisper_s2t
 )
 from utility import convert_text_to_pdf
+from movieToAudio import convert_vid2aud
 
 
 def load_key():
@@ -177,14 +178,19 @@ def test_model(vectordb, llm):
             f.write('Ans. :' + answer)
             f.write("-" * 90)
 
-def audio_processing():
+def audio_processing(file):
     load_key()
-    transcript = openai_s2t()
+    transcript = openai_s2t(file)
     # transcript = SpeechRecognition_s2t(['caffeine.mp3'])
     # transcript = Wav2Vec2_s2t(['MLKDream.mp3'])
+    print(transcript)
+
+def video_processing():
+    convert_vid2aud()
+    audio_processing('bbcnews.mp3')
 
 
-def setup():
+def text_processing():
     load_key()
     texts = split_documents(loader="pypdf")  # default is pypdf
     # embeddings_model = get_embeddings_model('openai')
@@ -200,5 +206,6 @@ def setup():
 
 
 if __name__ == "__main__":
-    setup()
-    # audio_processing()
+    # text_processing()
+    # audio_processing('MLKDream.ogg')
+    video_processing()

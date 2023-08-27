@@ -10,8 +10,8 @@ import openai
 from dotenv import find_dotenv, load_dotenv
 import os
 
-def openai_s2t():
-  audio_file = open('./MLKDream.ogg', 'rb')
+def openai_s2t(file):
+  audio_file = open(file, 'rb')
   # audio_file = open('./MLKDream.flac', 'rb')
   transcript = openai.Audio.transcribe('whisper-1', audio_file, response_format='text')
   return transcript
