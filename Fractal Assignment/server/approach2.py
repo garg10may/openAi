@@ -29,6 +29,7 @@ import transformers
 from langchain.llms import HuggingFacePipeline
 from langchain.document_loaders.parsers import GrobidParser
 from langchain.document_loaders.generic import GenericLoader
+from speech2text import openai_s2t
 
 
 def load_key():
@@ -36,6 +37,8 @@ def load_key():
 
     openai_key = os.getenv("openai_key")
     os.environ["OPENAI_API_KEY"] = openai_key
+
+    openai.api_key = openai_key #openai pure API not langchain one won't work with environ variables
 
     huggingface_key = os.getenv("huggingface_key")
     os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_key
@@ -169,6 +172,10 @@ def test_model(vectordb, llm):
             f.write('Ans. :' + answer)
             f.write("-" * 90)
 
+def audio_processing():
+    load_key()
+    print(openai_s2t())
+
 def setup():
     load_key()
     texts = split_documents(loader="pypdf")  # default is pypdf
@@ -185,4 +192,5 @@ def setup():
 
 
 if __name__ == "__main__":
-    setup()
+    # setup()
+    audio_processing()

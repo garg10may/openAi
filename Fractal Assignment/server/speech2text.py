@@ -1,5 +1,3 @@
-from IPython.display import Audio, display
-import warnings
 import speech_recognition as sr
 import librosa
 import torch
@@ -8,13 +6,27 @@ from transformers import Wav2Vec2ForCTC, AutoProcessor
 from time import process_time
 from datasets import load_dataset
 from evaluate import load
+import openai
+from dotenv import find_dotenv, load_dotenv
+import os
 
-# with warnings.catch_warnings():
-#     warnings.simplefilter("ignore")
-#     warnings.warn("deprecated", DeprecationWarning)
-warnings.filterwarnings("ignore")
+def openai_s2t():
+  audio_file = open('./MLKDream.ogg', 'rb')
+  # audio_file = open('./MLKDream.flac', 'rb')
+  transcript = openai.Audio.transcribe('whisper-1', audio_file, response_format='text')
+  return transcript
 
-audio_files = ["crazy_ones.flac", "rocky_balbao.flac"]
+def load_key():
+    print('loading key')
+    _ = load_dotenv(find_dotenv())
+
+    openai_key = os.getenv("openai_key")
+    os.environ["OPENAI_API_KEY"] = openai_key
+
+    huggingface_key = os.getenv("huggingface_key")
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_key
+
+audio_files = ["MLKDream.flac"]
 
 def SpeechRecognition_s2t(audio_files):
   transcriptions = []
@@ -27,7 +39,6 @@ def SpeechRecognition_s2t(audio_files):
     transcriptions.append(transcription)
 
   return transcriptions
-
 
 def Wav2Vec2_s2t(audio_files, rate=16000):
   transcriptions = []
@@ -57,89 +68,64 @@ def whisper_s2t(audio_files):
 
   return transcriptions
 
-def display_transcript(transcriptions):
-  for i in range(len(audio_files)):
-    display(Audio(audio_files[i]))
-    display(transcriptions[i])
+# transcriptions = SpeechRecognition_s2t(audio_files)
+# display_transcript(transcriptions)
+
+# transcriptions = Wav2Vec2_s2t(audio_files)
+# display_transcript(transcriptions)
+
+# transcriptions = whisper_s2t(audio_files)
+# display_transcript(transcriptions)
+
+# def speech2text(audio_file):
+#   model = whisper.load_model("base")
+#   result = model.transcribe(audio_file)
+#   return result["text"]
+
+# transcript = speech2text(audio_file)
+
+# def check_asr_accuracy(audio_files, references, model_func):
+#   predictions = []
+#   wer_scores = []
+#   for audio_path, reference in zip(audio_files, references):
+#     transcript = model_func(audio_path)
+#     predictions.append(transcript)
+#     wer = load("wer")
+#     wer_score = wer.compute(predictions=[transcript], references=[reference])
+#     wer_scores.append(wer_score)
+#   final_score = wer.compute(predictions=predictions, references=references)
+#   return (predictions, wer_scores, final_score)
 
 
-
-transcriptions = SpeechRecognition_s2t(audio_files)
-display_transcript(transcriptions)
-
-transcriptions = Wav2Vec2_s2t(audio_files)
-display_transcript(transcriptions)
-
-transcriptions = whisper_s2t(audio_files)
-display_transcript(transcriptions)
-
-def speech2text(audio_file):
-  model = whisper.load_model("base")
-  result = model.transcribe(audio_file)
-  return result["text"]
-
-audio_file = "rocky_balbao.mp3"
-t = process_time()
-transcript = speech2text(audio_file)
-elapsed_time = process_time() - t
-print(elapsed_time)
-display(Audio(audio_file))
-display(transcript)
+# def whisper_check(audio_file):
+#   model = whisper.load_model("base")
+#   result = model.transcribe(audio_file)["text"]
+#   transcript = result.replace(".", "").replace(",", "").replace("?", "").replace("!", "").upper()[1:]
+#   return transcript
 
 
-audio_file = "MLKDreamSpeech.mp3"
-t = process_time()
-transcript = speech2text(audio_file)
-elapsed_time = process_time() - t
-print(elapsed_time)
-display(Audio(audio_file))
-display(transcript)
+# def Wav2Vec2_check(audio_file, rate=16000):
+#   processor = AutoProcessor.from_pretrained("facebook/wav2vec2-base-960h")
+#   model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-base-960h")
 
-audio_file = "podcast.mp3"
-t = process_time()
-transcript = speech2text(audio_file)
-elapsed_time = process_time() - t
-print(elapsed_time)
-display(Audio(audio_file))
-display(transcript)
+#   audio, rate = librosa.load(audio_file, sr=rate)
+#   inputs = processor([audio], sampling_rate=rate, return_tensors="pt")
 
+#   with torch.no_grad():
+#     logits = model(**inputs).logits
+#     predicted_ids = torch.argmax(logits, dim=-1)
 
-def check_asr_accuracy(audio_files, references, model_func):
-  predictions = []
-  wer_scores = []
-  for audio_path, reference in zip(audio_files, references):
-    transcript = model_func(audio_path)
-    predictions.append(transcript)
-    wer = load("wer")
-    wer_score = wer.compute(predictions=[transcript], references=[reference])
-    wer_scores.append(wer_score)
-  final_score = wer.compute(predictions=predictions, references=references)
-  return (predictions, wer_scores, final_score)
+#   transcription = processor.batch_decode(predicted_ids)[0]
+
+#   return transcription
 
 
-def whisper_check(audio_file):
-  model = whisper.load_model("base")
-  result = model.transcribe(audio_file)["text"]
-  transcript = result.replace(".", "").replace(",", "").replace("?", "").replace("!", "").upper()[1:]
-  return transcript
+# ds = load_dataset("hf-internal-testing/librispeech_asr_dummy", "clean", split="validation")
 
+def setup():
+  load_key()
+  transcription = openai_s2t()
+  print(transcription)
 
-def Wav2Vec2_check(audio_file, rate=16000):
-  processor = AutoProcessor.from_pretrained("facebook/wav2vec2-base-960h")
-  model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-base-960h")
-
-  audio, rate = librosa.load(audio_file, sr=rate)
-  inputs = processor([audio], sampling_rate=rate, return_tensors="pt")
-
-  with torch.no_grad():
-    logits = model(**inputs).logits
-    predicted_ids = torch.argmax(logits, dim=-1)
-
-  transcription = processor.batch_decode(predicted_ids)[0]
-
-  return transcription
-
-
-ds = load_dataset("hf-internal-testing/librispeech_asr_dummy", "clean", split="validation")
-
-
+if __name__ == '__main__':
+  setup()
