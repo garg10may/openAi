@@ -92,7 +92,7 @@ def get_llm(type="openai"):
     return llm
 
 
-def embeddings_model(type):
+def get_embeddings_model(type):
     if type == "openai":
         embeddings_model = OpenAIEmbeddings()
     if type == "huggingface":
@@ -140,15 +140,19 @@ def get_conversation_chain(vectordb, llm):
     return conversation_chain
 
 
+# TEST_QUERIES = [
+    # "What is the purpose of the act?",
+    # "How many different sections are there? Give me brief summary of each of the section.",
+    # "Which NAIC member states have still not implemented the model and which has implemented the same?",  # hugging embedding has been best here, but none have been fully correct
+    # "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6",  # fails
+    # "Please give me the table of contents for this pdf?",  # fails #says I don't know, till now nobody has answered it
+# 
+# ]
+
+
 TEST_QUERIES = [
-    "What is the purpose of the act?",
-    "How many different sections are there? Give me brief summary of each of the section.",
-    "Which NAIC member states have still not implemented the model and which has implemented the same?",  # hugging embedding has been best here, but none have been fully correct
-    "Give headings of Section 1, Section 2, Section 3, Section 4, Section 5, Section 6",  # fails
-    "Please give me the table of contents for this pdf?",  # fails #says I don't know, till now nobody has answered it
-
+    'Summarize me the story'
 ]
-
 
 def test_model(vectordb, llm):
     for query in TEST_QUERIES:
@@ -168,14 +172,13 @@ def test_model(vectordb, llm):
 def setup():
     load_key()
     texts = split_documents(loader="pypdf")  # default is pypdf
-    # embeddings_model = embeddings_model('openai')
-    model = embeddings_model("huggingface")
-    vectordb = generate_vectors(model, texts, use_pregenerated_embeddings=True)
+    # embeddings_model = get_embeddings_model('openai')
+    embeddings_model = get_embeddings_model("huggingface")
+    vectordb = generate_vectors(embeddings_model, texts, use_pregenerated_embeddings=True)
     # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query) #to save costs, just submit relevant vector to reduce token
     llm = get_llm()  # default openai, other: huggingface, local
     # test_model(vectordb, llm)
-    query = 'What is the purpose of the act?'
-    query = 'What is the sentiment of this report, just answer in postiive or negative?'
+    query = 'What is this document about?'
     answer = generate_answer(vectordb, query, llm)
     print(answer)
 
