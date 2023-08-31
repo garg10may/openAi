@@ -36,18 +36,10 @@ whisper_s2t
 )
 from utility import convert_text_to_pdf
 from movieToAudio import convert_vid2aud
+from unstructured import get_headers
+from utility import load_key
+from agents import csv_agent
 
-
-def load_key():
-    _ = load_dotenv(find_dotenv())
-
-    openai_key = os.getenv("openai_key")
-    os.environ["OPENAI_API_KEY"] = openai_key
-
-    openai.api_key = openai_key #openai pure API not langchain one won't work with environ variables
-
-    huggingface_key = os.getenv("huggingface_key")
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_key
 
 
 def split_documents(loader="pypdf"):
@@ -179,7 +171,6 @@ def test_model(vectordb, llm):
             f.write("-" * 90)
 
 def audio_processing(file):
-    load_key()
     transcript = openai_s2t(file)
     # transcript = SpeechRecognition_s2t(['caffeine.mp3'])
     # transcript = Wav2Vec2_s2t(['MLKDream.mp3'])
@@ -189,23 +180,29 @@ def video_processing():
     convert_vid2aud()
     audio_processing('bbcnews.mp3')
 
+def unstructured_processing(query):
+    agent = csv_agent()
+    agent.run(query)
+
 
 def text_processing():
-    load_key()
     texts = split_documents(loader="pypdf")  # default is pypdf
-    # embeddings_model = get_embeddings_model('openai')
-    embeddings_model = get_embeddings_model("huggingface")
+    embeddings_model = get_embeddings_model('openai')
+    # embeddings_model = get_embeddings_model("huggingface")
     vectordb = generate_vectors(embeddings_model, texts, use_pregenerated_embeddings=False)
     # vectordb = filter_relevant_vectors(embeddings_model, vectordb, query) #to save costs, just submit relevant vector to reduce token
     llm = get_llm()  # default openai, other: huggingface, local
     # test_model(vectordb, llm)
-    query = 'What is this document about?'
+    query = 'Could I claim more than $ for the internet installation?'
     answer = generate_answer(vectordb, query, llm)
     print(answer)
 
 
 
 if __name__ == "__main__":
+    load_key()
     # text_processing()
     # audio_processing('MLKDream.ogg')
-    video_processing()
+    # video_processing()
+    # unstructured_processing('How many rows are there in this dataset')
+    # unstructured_processing('Who has the most number of reportees? What is the count')

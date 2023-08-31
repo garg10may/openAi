@@ -1,6 +1,12 @@
 from langchain.agents import create_csv_agent
 from langchain.llms import OpenAI
 from utility import load_key
+from langchain.tools import DuckDuckGoSearchRun
+from langchain.agents import Tool, AgentExecutor, LLMSingleActionAgent, AgentOutputParser
+from langchain.prompts import StringPromptTemplate
+from langchain import OpenAI, LLMChain
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def csv_agent():
@@ -29,6 +35,22 @@ Observation: the result of the action
 Thought: I now know the final answer
 Final Answer: the final answer to the original input question 
 '''
+
+def search_agent():
+  search = DuckDuckGoSearchRun()
+  result = search.run('Who is the prime minister of India')
+  print(result)
+  tools = [
+    Tool(
+      name = 'Search',
+      func = search.run,
+      description='useful when you need to answer the questions about current events'
+    )
+  ]
+
+
+
 if __name__ == '__main__':
-  agent = csv_agent()
+  # agent = csv_agent()
+  agent = search_agent()
   print(agent)
